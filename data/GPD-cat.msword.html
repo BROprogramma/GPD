@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Grondwaterproductiedossier (GPD) conceptueel/20210610</p>
       <p>Imvertor: 1.64.2</p>
-      <p>Model release: Conceptualmodel-GrondwaterproductiedossierGPDconceptueel-0.98-1-20210610-20210702-150704</p>
+      <p>Model release: Conceptualmodel-GrondwaterproductiedossierGPDconceptueel-0.98-1-20210610-20210709-133324</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -344,7 +344,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d17536e1523"></a><section id="detail_d17536e1523">
+                     </section><a class="anchor" id="detail_d17581e1523"></a><section id="detail_d17581e1523">
                      <h4>  registratiegeschiedenis</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -385,7 +385,7 @@
                            </tr>
                         </tbody>
                      </table>
-                  </section><a class="anchor" id="detail_d17536e1732"></a><section id="detail_d17536e1732">
+                  </section><a class="anchor" id="detail_d17581e1732"></a><section id="detail_d17581e1732">
                      <h4>  levensduur</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -415,6 +415,13 @@
                               <th>Gegevensgroeptype</th>
                               <td>
                                  <a class="link" href="#global_class_GPD_TijdvakLevensduur">TijdvakLevensduur</a>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>De <em>eindtijd</em> is gelijk aan de meest recente <em>einddatum</em> van <em>rapportageperiode</em>. </p>
                                  </td>
                            </tr>
                            <tr>
@@ -547,6 +554,42 @@
                            </tr>
                         </tbody>
                      </table>
+                     </section><a class="anchor" id="detail_attribute_GPD_Rapportage_inwinmethode"></a><section id="detail_attribute_GPD_Rapportage_inwinmethode">
+                     <h4>  inwinmethode</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Rapportage</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De methode waarmee de volumes van de <em>Volume reeks</em> zijn bepaald.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Inwinmethode</td>
+                           </tr>
+                        </tbody>
+                     </table>
                      </section><a class="anchor" id="detail_attribute_GPD_Rapportage_rapportageperiode"></a><section id="detail_attribute_GPD_Rapportage_rapportageperiode">
                      <h4>  rapportageperiode</h4>
                      
@@ -586,50 +629,16 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Bij jaaropgaven betreft het een kalenderjaar. Bij tijdelijke onttrekkingen of in de
-                                    bodem brengen, zoals bijvoorbeeld bij bronneringen, komt het voor dat de rapportage
+                                 <p>De gegevens staan niet in een brondocument maar worden automatisch door de basisregistratie
+                                    ondergrond gegenereerd.<br clear="none">
+                                    Bij jaaropgaven zal het een kalenderjaar betreffen. Bij tijdelijke onttrekkingen of
+                                    in de bodem brengen, zoals bijvoorbeeld bij bronneringen, komt het voor dat de rapportage
                                     een specifieke periode bestrijkt. </p>
                                  </td>
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_attribute_GPD_Rapportage_inwinmethode"></a><section id="detail_attribute_GPD_Rapportage_inwinmethode">
-                     <h4>  inwinmethode</h4>
-                     
-                     <table style="width: 100%;">
-                        <colgroup style="width: 30%;"></colgroup>
-                        <colgroup style="width: 70%;"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Rapportage</td>
-                           </tr>
-                           <tr>
-                              <th>Definitie</th>
-                              <td>
-                                 
-                                 <p>De methode waarmee de volumes van de <em>Volume reeks</em> zijn bepaald.</p>
-                                 </td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>1</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td>Inwinmethode</td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     </section><a class="anchor" id="detail_d17536e2735"></a><section id="detail_d17536e2735">
+                     </section><a class="anchor" id="detail_d17581e2798"></a><section id="detail_d17581e2798">
                      <h4>  volume reeks</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -714,8 +723,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het BRO-ID van Gerelateerde grondwatergebruiksysteem moet bij alle Rapportages van
-                                    dit registratieobject gelijk zijn.</p>
+                                 <p>Het BRO-ID van het gerelateerde Grondwatergebruiksysteem moet bij alle Rapportages
+                                    van dit registratieobject gelijk zijn.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -786,6 +795,14 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Datuminterval</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>De <em>begindatum</em> mag niet liggen voor de <em>begintijd</em> van <em>levensduur</em> van <em>Grondwatergebruiksysteem.</em>
+                                    </p>
+                                 </td>
                            </tr>
                         </tbody>
                      </table>
