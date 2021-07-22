@@ -29,3 +29,4 @@ De voorliggende catalogus gaat over het registratieobject grondwaterproductiedos
 In de technische landelijke voorziening van de basisregistratie ondergrond worden Engelstalige benamingen gehanteerd voor de registratieobjecten. Omwille van de aansluiting hiermee worden voor de registratieobjecten Engelstalige afkortingen gebruikt. In deze catalogus worden alleen de Engelstalige afkortingen en verder de Nederlandstalige termen gebruiken.
 -   Grondwatergebruiksysteem wordt afgekort tot GUF (Groundwater Usage Facility);
 -   Grondwaterproductiedossier wordt afgekort tot GPD (Groundwater Production Dossier).
+
