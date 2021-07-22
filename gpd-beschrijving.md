@@ -34,3 +34,24 @@ In de technische landelijke voorziening van de basisregistratie ondergrond worde
 
 <i>Figuur 2: De mogelijke samenhang tussen de twee registratieobjecten Grondwatergebruiksysteem (GUF) en Grondwaterproductiedossier (GPD) binnen het domein Grondwatergebruik. Onder het IMBRO-regime heeft de inhoud van het grondwaterproductiedossier meestal betrekking op het installatie-niveau van GUF. Onder het IMBRO/A-regime hebben deze gegevens meestal betrekking op het niveau van grondwatergebruiksysteem van GUF. In het figuur is met dunne lijnen aangegeven dat onder het IMBRO-regime een klein deel van de inhoud van het grondwaterproductiedossier betrekking zal hebben op het grondwatergebruiksysteem-niveau van GUF. Een klein deel van inhoud van de grondwaterproductiedossiers onder het IMBRO/A-regime zal betrekking hebben op het installatie-niveau van GUF.</i>
 
+Een grondwatergebruiksysteem betreft de constructie die gebruikt wordt om grondwater te onttrekken aan, en te brengen in de ondergrond. Ook zijn systemen opgenomen die niet direct gebruik maken van het grondwater zelf, maar die alleen indirect gebruik maken van het grondwater, namelijk van de warmtecapaciteit van het grondwater. Het registratieobject grondwatergebruiksysteem bevat gegevens die bij de vergunningverlening (in de beschikking) of in melding zijn vastgelegd over het ontwerp van het systeem. Daarnaast bevat dit registratieobject gegevens over het in de praktijk gerealiseerde systeem. Zowel de ontwerpinstallatie en haar onderdelen als de gerealiseerde installatie en haar onderdelen hebben een geometrie.
+
+Een grondwaterproductiedossier omvat de gegevens van de periodieke opgave van de volumes (grond)water die over een zekere periode aan de ondergrond worden onttrokken of ingebracht. Deze gegevens worden op basis van een wettelijke plicht aan het bevoegd gezag gerapporteerd. Een grondwaterproductiedossier heeft zelf geen verticale positie en locatie maar bevat de relatie met de gerealiseerde installatie(s) waar de productiecijfers betrekking op hebben. Een grondwaterproductiedossier bevat daarmee indirect een locatie. Eén grondwaterproductiedossier kan relaties naar meerdere installaties bevatten waarbij deze installaties altijd onderdeel uitmaken van één grondwatergebruiksysteem. In het geval het historische gegevens van productiecijfers van een grondwatergebruiksysteem met meerdere installaties betreft, is vaak alleen bekend wat de productiecijfers van het gehele grondwatergebruiksysteem zijn, en is de uitsplitsing naar gerealiseerde installaties meestal niet bekend. In die gevallen wordt bij een grondwaterproductiedossier de relatie vastgelegd met het grondwatergebruiksysteem, en dus niet met de gerealiseerde installaties. Paragraaf 3.4 beschrijft de relatie tussen het grondwatergebruiksysteem en de grondwaterproductiecijfers van historische gegevens (IMBRO/A) in meer detail.
+
+Een grondwaterproductiedossier en het grondwatergebruiksysteem waar dat grondwaterproductiedossier betrekking op heeft, vallen onder de verantwoordelijkheid van dezelfde bronhouder.
+
+Inleiding grondwaterproductiedossier
+----------------------------------
+
+### Inleiding
+
+Een *Grondwaterproductiedossier (GPD)* omvat de gegevens van de periodieke opgave van de volumes (grond)water die over een zekere periode aan de ondergrond worden onttrokken of ingebracht. Het grondwaterproductiedossier richt zich alleen op de feitelijk gebruikte hoeveelheid grondwater, gegevens met betrekking tot de opgeslagen en onttrokken warmte en koude (bij bodemenergiesystemen), zoals bijvoorbeeld temperatuurgegevens worden niet geregistreerd in het grondwaterproductiedossier. Het registratieobject grondwaterproductiedossier beantwoordt de vraag hoe het grondwater is gebruikt (onttrokken of ingebracht), hoeveel grondwater is gebruikt en in welke periode dat is geweest. De in de basisregistratie ondergrond te registreren informatie van grondwaterproductie ontstaat in het werkproces van de bevoegde gezagen. Paragraaf 3.2.2 beschrijft de opeenvolgende stappen van het proces waarin de gegevens ontstaan. Paragraaf 3.2.3 beschrijft een aantal belangrijke kenmerken van de gegevens over het grondwaterproductiedossier. 
+
+### Het proces van gegevensverwerking
+
+Het proces waarin gegevens van grondwatergebruiksystemen in de praktijk ontstaan, is schematisch weergegeven in de onderstaande figuur en wordt daaronder beschreven. 
+
+![](media/totstandkomingsproces.png)
+
+*Figuur 3: Het totstandkomingsproces van gegevens voor de registratieobjecten Grondwatergebruiksysteem (beige pijlen) en Grondwaterproductiedossier (rode pijlen) en de daarbij betrokken actoren.*
+
