@@ -16,3 +16,18 @@ Voor het aanleveren van onttrokken of ingebrachte hoeveelheden grondwater gelden
 Het grondwaterproductiedossier kent een directe verwijzing naar één grondwatergebruiksysteem. De geografische en andere technische eigenschappen van het systeem zijn onderdeel van het registratieobject grondwatergebruiksysteem. Dat betekent dat in dit registratieobject uitsluitend de grondwaterproductiecijfers worden geregistreerd van grondwatergebruiksystemen die reiken tot een diepte van maximaal 500 meter beneden maaiveld.
 
 De volledige scopeafbakening is beschreven in het Scopedocument Domein Grondwatergebruik (GU). Deze is te raadplegen op: https://basisregistratieondergrond.nl/inhoud-bro/registratieobjecten/grondwatergebruik/
+
+Domein grondwatergebruik in de BRO
+----------------------------------
+
+Het domein grondwatergebruik in de basisregistratie ondergrond (BRO) omvat twee registratieobjecten:
+
+    Grondwatergebruiksysteem;
+    Grondwaterproductiedossier.
+
+De voorliggende catalogus gaat over het registratieobject grondwaterproductiedossier.
+
+In de technische landelijke voorziening van de basisregistratie ondergrond worden Engelstalige benamingen gehanteerd voor de registratieobjecten. Omwille van de aansluiting hiermee worden voor de registratieobjecten Engelstalige afkortingen gebruikt. In deze catalogus worden alleen de Engelstalige afkortingen en verder de Nederlandstalige termen gebruiken.
+
+    Grondwatergebruiksysteem wordt afgekort tot GUF (Groundwater Usage Facility);
+    Grondwaterproductiedossier wordt afgekort tot GPD (Groundwater Production Dossier).
