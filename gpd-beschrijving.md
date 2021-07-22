@@ -32,7 +32,7 @@ In de technische landelijke voorziening van de basisregistratie ondergrond worde
 
 ![](media/39964ae4bf6d301a85a027ff152809ae.png)
 
-<i>Figuur 2: De mogelijke samenhang tussen de twee registratieobjecten Grondwatergebruiksysteem (GUF) en Grondwaterproductiedossier (GPD) binnen het domein Grondwatergebruik. Onder het IMBRO-regime heeft de inhoud van het grondwaterproductiedossier meestal betrekking op het installatie-niveau van GUF. Onder het IMBRO/A-regime hebben deze gegevens meestal betrekking op het niveau van grondwatergebruiksysteem van GUF. In het figuur is met dunne lijnen aangegeven dat onder het IMBRO-regime een klein deel van de inhoud van het grondwaterproductiedossier betrekking zal hebben op het grondwatergebruiksysteem-niveau van GUF. Een klein deel van inhoud van de grondwaterproductiedossiers onder het IMBRO/A-regime zal betrekking hebben op het installatie-niveau van GUF.</i>
+*Figuur 2: De mogelijke samenhang tussen de twee registratieobjecten Grondwatergebruiksysteem (GUF) en Grondwaterproductiedossier (GPD) binnen het domein Grondwatergebruik. Onder het IMBRO-regime heeft de inhoud van het grondwaterproductiedossier meestal betrekking op het installatie-niveau van GUF. Onder het IMBRO/A-regime hebben deze gegevens meestal betrekking op het niveau van grondwatergebruiksysteem van GUF. In het figuur is met dunne lijnen aangegeven dat onder het IMBRO-regime een klein deel van de inhoud van het grondwaterproductiedossier betrekking zal hebben op het grondwatergebruiksysteem-niveau van GUF. Een klein deel van inhoud van de grondwaterproductiedossiers onder het IMBRO/A-regime zal betrekking hebben op het installatie-niveau van GUF.*
 
 Een grondwatergebruiksysteem betreft de constructie die gebruikt wordt om grondwater te onttrekken aan, en te brengen in de ondergrond. Ook zijn systemen opgenomen die niet direct gebruik maken van het grondwater zelf, maar die alleen indirect gebruik maken van het grondwater, namelijk van de warmtecapaciteit van het grondwater. Het registratieobject grondwatergebruiksysteem bevat gegevens die bij de vergunningverlening (in de beschikking) of in melding zijn vastgelegd over het ontwerp van het systeem. Daarnaast bevat dit registratieobject gegevens over het in de praktijk gerealiseerde systeem. Zowel de ontwerpinstallatie en haar onderdelen als de gerealiseerde installatie en haar onderdelen hebben een geometrie.
 
@@ -52,6 +52,10 @@ Een *Grondwaterproductiedossier (GPD)* omvat de gegevens van de periodieke opgav
 Het proces waarin gegevens van grondwatergebruiksystemen in de praktijk ontstaan, is schematisch weergegeven in de onderstaande figuur en wordt daaronder beschreven. 
 
 ![](media/totstandkomingsproces.png)
+<figure id='image003'>
+          <img src="./media/totstandkomingsproces.png" alt="proces" width="600"/>
+          <figcaption>Het totstandkomingsproces van gegevens voor de registratieobjecten Grondwatergebruiksysteem (beige pijlen) en Grondwaterproductiedossier (rode pijlen) en de daarbij betrokken actoren.</figcaption>
+        </figure>
 
 *Figuur 3: Het totstandkomingsproces van gegevens voor de registratieobjecten Grondwatergebruiksysteem (beige pijlen) en Grondwaterproductiedossier (rode pijlen) en de daarbij betrokken actoren.*
 
@@ -63,15 +67,15 @@ Gegevens over het feitelijke gebruik van grondwater worden door vergunningnemers
 
 Hieronder zijn de belangrijkste sturende kenmerken kort toegelicht. In de beschrijving van de gegevensinhoud (paragraaf 3.3) wordt per entiteit een nadere, specifieke toelichting gegeven.
 
-**Grondwaterproductie richt zich primair op grondwatergebruik**
+#### Grondwaterproductie richt zich primair op grondwatergebruik
 
 De primaire focus van het registratieobject grondwaterproductiedossier ligt bij de periodieke opgave van de volumes (grond)water die over een zekere periode aan de ondergrond worden onttrokken of ingebracht. In de BRO Programma Stuurgroep is besloten dat gegevens over de energieproductie buiten scope zijn. Omdat de circulatievloeistof van gesloten bodemenergiesystemen geen direct contact met het grondwater heeft, wordt van gesloten bodemenergiesystemen daardoor geen enkel gegeven in het registratieobject grondwaterproductiedossier opgenomen. Bij oppervlakte-infiltraties is door verdamping en neerslag niet precies bekend hoeveel water er in de ondergrond infiltreert. Wel is vaak bekend hoeveel water er, op installatieniveau wordt ingelaten. Het netwerk van infiltratieplassen en -kanalen vormt in dit geval de installatie. Dit ingelaten volume wordt, indien dit cijfer beschikbaar is, ook in het grondwaterproductiedossier geregistreerd.
 
-**De kwaliteit en nauwkeurigheid van de geregistreerde gegevens**
+##### De kwaliteit en nauwkeurigheid van de geregistreerde gegevens
 
 Bij het gebruik van de gegevens uit de basisregistratie ondergrond moet de gebruiker kunnen vertrouwen op de geregistreerde gegevens. Dat roept de vraag op wat de kwaliteit en de nauwkeurigheid van de geregistreerde gegevens precies is. Grondwaterproductiecijfers worden deels met behulp van een watermeter vastgesteld. De watermeter meet het verpompte volume over een bepaalde periode. Een ander deel wordt geschat op basis van de draaiuren van de pomp en de capaciteit van de pomp of het debiet. Van agrarische onttrekkingen ten behoeve van bijvoorbeeld beregening is bekend dat deze voornamelijk in de laatste groep vallen. Het feit of het gemeten dan wel geschatte geregistreerde volumes betreft, wordt in het grondwaterproductiedossier vastgelegd. Naast dit kwaliteitskenmerk zijn in het grondwaterproductiedossier geen andere eigenschappen opgenomen om de kwaliteit van de gerapporteerde volumes te kunnen beoordelen. De controle en validatie van de productiecijfers is onderdeel van de Toezicht- en Handhavingstaken van het bevoegd gezag. Deze organisaties zijn verantwoordelijk voor de juistheid en betrouwbaarheid van de aangeleverde gegevens.
 
-**Periode van het geregistreerde volume**
+#### Periode van het geregistreerde volume
 
 De periode waarover het gemeten gebruik wordt gerapporteerd, is wettelijk vastgelegd, evenals het moment waarop deze gegevens eenmaal per jaar aan het bevoegd gezag worden aangeleverd. Anders dan het wettelijk voorschrift aangeeft, is het in de dagelijkse praktijk al gemeengoed om de productiecijfers per maand te meten en te rapporteren aan het bevoegd gezag. In geval van kortlopend grondwatergebruik dient men de productiecijfers na afloop van de activiteit aan het bevoegd gezag aan te leveren. In de beschikking of afspraken met betrekking tot meldingen is de periode waarover het gemeten gebruik gerapporteerd wordt opgenomen. Volumes worden over de kleinst mogelijke, gerapporteerde periode geregistreerd in de basisregistratie ondergrond. Jaarvolumes worden alleen geregistreerd als er geen uitsplitsing naar kwartalen of maanden zijn gerapporteerd aan het bevoegd gezag. Indien de productiecijfers per maand beschikbaar zijn worden ze op dat niveau geregistreerd en niet (ook) op kwartaal en/of jaarniveau.
 
