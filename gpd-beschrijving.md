@@ -31,3 +31,6 @@ In de technische landelijke voorziening van de basisregistratie ondergrond worde
 -   Grondwaterproductiedossier wordt afgekort tot GPD (Groundwater Production Dossier).
 
 ![](media/39964ae4bf6d301a85a027ff152809ae.png)
+
+<i>Figuur 2: De mogelijke samenhang tussen de twee registratieobjecten Grondwatergebruiksysteem (GUF) en Grondwaterproductiedossier (GPD) binnen het domein Grondwatergebruik. Onder het IMBRO-regime heeft de inhoud van het grondwaterproductiedossier meestal betrekking op het installatie-niveau van GUF. Onder het IMBRO/A-regime hebben deze gegevens meestal betrekking op het niveau van grondwatergebruiksysteem van GUF. In het figuur is met dunne lijnen aangegeven dat onder het IMBRO-regime een klein deel van de inhoud van het grondwaterproductiedossier betrekking zal hebben op het grondwatergebruiksysteem-niveau van GUF. Een klein deel van inhoud van de grondwaterproductiedossiers onder het IMBRO/A-regime zal betrekking hebben op het installatie-niveau van GUF.</i>
+
