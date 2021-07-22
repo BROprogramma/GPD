@@ -30,3 +30,4 @@ In de technische landelijke voorziening van de basisregistratie ondergrond worde
 -   Grondwatergebruiksysteem wordt afgekort tot GUF (Groundwater Usage Facility);
 -   Grondwaterproductiedossier wordt afgekort tot GPD (Groundwater Production Dossier).
 
+![](media/39964ae4bf6d301a85a027ff152809ae.png)
