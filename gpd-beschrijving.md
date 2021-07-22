@@ -110,13 +110,7 @@ Het volume wordt geregistreerd in kubieke meter. Het betreft in het bovenstaande
 
 Bij een open bodemenergiesystemen is het van belang om te registreren of het ingebrachte water relatief warm of relatief koud is ten opzichte van het onttrokken water. Het ingebrachte water is relatief warm tijdens koelingsbedrijf en relatief koud tijdens verwarmingsbedrijf. Het is mogelijk dat binnen een bepaalde periode het open bodemenergiesysteem is gewisseld van koelingsbedrijf naar verwarmingsbedrijf of andersom. In dat geval worden voor die periode drie reeksen geregistreerd: een met het volume dat is onttrokken, een met het volume dat tijdens koelingsbedrijf is ingebracht met daarbij de relatieve temperatuur van het ingebrachte water: warm. En een reeks met het volume dat tijdens verwarmingsbedrijf is ingebracht met daarbij de relatieve temperatuur van het ingebrachte water: koud. Hieronder een voorbeeld hoe de inhoud van een aantal *Volume reeksen* van een *Rapportage* eruit kunnen zien die betrekking hebben op de installatie van een open bodemenergiesysteem.
 
-
-| periode                      | januari (2025-01-01 / 2025-01-31)      |
-|------------------------------|----------------------------------------|
-| verplaatsingsrichting        | onttrokken                             |  
-| volume                       | 37.000                                 |
-
-<table style="width:50%">
+  <table style="width:50%">
       <tr>
         <td>periode</td>
         <td>januari (2025-01-01 / 2025-01-31)</td>
@@ -130,3 +124,81 @@ Bij een open bodemenergiesystemen is het van belang om te registreren of het ing
         <td>37.000</td>
       </tr>
   </table>
+  
+  <table style="width:50%">
+      <tr>
+        <td>periode</td>
+        <td>januari (2025-01-01 / 2025-01-31)</td>
+      </tr>
+      <tr>
+        <td>verplaatsingsrichting</td>
+        <td>ingebracht</td>
+      </tr>
+      <tr>
+        <td>volume</td>
+        <td>36.995</td>
+      </tr>
+      <tr>
+        <td>ingebracht warm of koud</td>
+        <td>koud</td>
+      </tr>  
+  </table>
+  
+  <table style="width:50%">
+      <tr>
+        <td>periode</td>
+        <td>april (2025-04-01 / 2025-04-30)</td>
+      </tr>
+      <tr>
+        <td>verplaatsingsrichting</td>
+        <td>onttrokken</td>
+      </tr>
+      <tr>
+        <td>volume</td>
+        <td>38.000</td>
+      </tr>
+  </table>
+  
+  <table style="width:50%">
+      <tr>
+        <td>periode</td>
+        <td>april (2025-04-01 / 2025-04-30)</td>
+      </tr>
+      <tr>
+        <td>verplaatsingsrichting</td>
+        <td>ingebracht</td>
+      </tr>
+      <tr>
+        <td>volume</td>
+        <td>28.495</td>
+      </tr>
+      <tr>
+        <td>ingebracht warm of koud</td>
+        <td>koud</td>
+      </tr>  
+  </table>
+  
+  <table style="width:50%">
+      <tr>
+        <td>periode</td>
+        <td>april (2025-04-01 / 2025-04-30)</td>
+      </tr>
+      <tr>
+        <td>verplaatsingsrichting</td>
+        <td>ingebracht</td>
+      </tr>
+      <tr>
+        <td>volume</td>
+        <td>9.500</td>
+      </tr>
+      <tr>
+        <td>ingebracht warm of koud</td>
+        <td>warm</td>
+      </tr>  
+  </table>
+  
+*Voorbeeld: een deel van de volume reeksen van een rapportage over de rapportageperiode 2025.*
+
+Zoals ook in paragraaf 3.2.3.3 is beschreven, worden volumes per kleinst mogelijke periode, bijvoorbeeld per maand geregistreerd. De tijdseenheid van deze periode wordt in de beschikking vermeld. Volumes worden daarnaast niet als totaal jaarvolume geregistreerd.
+
+
