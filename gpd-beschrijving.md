@@ -112,6 +112,5 @@ Bij een open bodemenergiesystemen is het van belang om te registreren of het ing
 
 
 | periode                      | januari (2025-01-01 / 2025-01-31)      |
-|------------------------------|----------------------------------------|
 | verplaatsingsrichting        | onttrokken                             |  
 | volume                       | 37.000                                 |
