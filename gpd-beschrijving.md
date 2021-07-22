@@ -124,7 +124,7 @@ Bij een open bodemenergiesystemen is het van belang om te registreren of het ing
         <td>37.000</td>
       </tr>
   </table>
-  
+  <BR>
   <table style="width:75%">
       <tr>
         <td>periode</td>
@@ -143,7 +143,7 @@ Bij een open bodemenergiesystemen is het van belang om te registreren of het ing
         <td>koud</td>
       </tr>  
   </table>
-  
+  <BR>
   <table style="width:75%">
       <tr>
         <td>periode</td>
@@ -158,7 +158,7 @@ Bij een open bodemenergiesystemen is het van belang om te registreren of het ing
         <td>38.000</td>
       </tr>
   </table>
-  
+  <BR>
   <table style="width:75%">
       <tr>
         <td>periode</td>
@@ -177,7 +177,7 @@ Bij een open bodemenergiesystemen is het van belang om te registreren of het ing
         <td>koud</td>
       </tr>  
   </table>
-  
+  <BR>
   <table style="width:75%">
       <tr>
         <td>periode</td>
