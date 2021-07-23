@@ -211,4 +211,24 @@ Eén rapportage heeft dus betrekking op één gerealiseerde installatie of op ee
 
 Hieronder twee voorbeelden waaruit blijkt dat de technische samenhang en de samenhang van rapporteren een rol spelen bij de indeling van installaties in de basisregistratie ondergrond. Het eerste voorbeeld, zie figuur 4, toont een grondwatergebruiksysteem met 1 infiltratieplas en 3 onttrekkingsputten waarbij in de beschikking staat dat voor put 2 aparte rapportages aangeleverd moeten worden (schets links). Dat betekent dat put 2 in de BRO een aparte installatie moet vormen (indeling 1 en 2: in rood, installatie 1). De rapportage over de onttrokken volumes van put 2, wordt gekoppeld aan installatie 1. Put 2 vormt immers installatie 1. Afhankelijk van de technische samenhang tussen put 1 en 2 enerzijds en de oppervlakte-infiltratie anderzijds kunnen de putten 1 en 2 en de oppervlakte-infiltratie samen één installatie (indeling 2), twee installaties (indeling 1) of zelfs drie installaties vormen. De rapportage over de ingebrachte volumes van de oppervlakte-infiltratie wordt bij indeling 1 gekoppeld aan installatie 3.
 
-Bij indeling 2 worden de ingebrachte volumes, samen met de onttrokken volumes van put 1 en 3, gebundeld in één rapportage en gekoppeld aan installatie 2. Eén rapportage kan meerdere volume reeksen bevatten en per volume reeks wordt aangegeven of het een onttrokken volume of een ingebracht volume betreft. In plaats van één rapportage voor zowel onttrokken volume als ingebracht volume, kan deze rapportage eventueel ook gesplitst worden in twee rapportages: één voor de ingebrachte volumes en één voor de onttrokken volumes, die beide gekoppeld zijn aan installatie. 
+Bij indeling 2 worden de ingebrachte volumes, samen met de onttrokken volumes van put 1 en 3, gebundeld in één rapportage en gekoppeld aan installatie 2. Eén rapportage kan meerdere volume reeksen bevatten en per volume reeks wordt aangegeven of het een onttrokken volume of een ingebracht volume betreft. In plaats van één rapportage voor zowel onttrokken volume als ingebracht volume, kan deze rapportage eventueel ook gesplitst worden in twee rapportages: één voor de ingebrachte volumes en één voor de onttrokken volumes, die beide gekoppeld zijn aan installatie.
+
+<figure id='image004'>
+  <img src="./media/Voorbeeld1-installaties.jpg" alt="voorbeeldinstallaties1" width="600"/>
+  <figcaption>Een grondwatergebruiksysteem (links) dat op twee verschillende manieren is ingedeeld: in drie (indeling 1) en twee (indeling 2) installaties.</figcaption>
+</figure>
+
+Een tweede voorbeeld hieronder toont een grondwatergebruiksysteem met 2 infiltratieplassen en 7 onttrekkingsputten. Het grondwatergebruiksysteem is in dit voorbeeld op drie verschillende manieren ingedeeld. Bij indeling 1 vormen de putten 1 t/m 3 installatie 1. De rapportage van onttrokken volumes van deze putten gezamenlijk, wordt gekoppeld aan installatie 1. Hetzelfde geldt voor de putten 4 t/m 7. De rapportage van deze onttrokken volumes wordt gekoppeld aan installatie 2. Het is in dit voorbeeld niet bekend wat het volume ingebracht water van de oppervlakte-infiltraties A en B afzonderlijk is. Alleen het totale volume van oppervlakte-infiltratie A en B samen is bekend. Bij indeling 1 is ervoor gekozen om de oppervlakte-infiltraties A en B samen onder te brengen in installatie 3. De rapportage van het ingebrachte water via oppervlakte-infiltratie A en B wordt gekoppeld aan installatie 3.
+
+Bij indeling 2 is ervoor gekozen, vanwege de technische samenhang, om oppervlakte-infiltratie A onder te brengen bij installatie 1 en oppervlakte-infiltratie B bij installatie 2. Het volume ingebracht water van de twee oppervlakte-infiltraties kan echter niet worden gesplitst over de twee installaties. Bij deze indeling moet ervoor gekozen worden om de rapportage van het volume ingebracht water, van oppervlakte-infiltraties A en B gezamenlijk, te koppelen aan, dus op het niveau van, het grondwatergebruiksysteem. Aan installaties 1 en 2 worden alleen de onttrokken volumes gekoppeld.
+
+Bij indeling 3 zijn alle onttrekkingsputten en oppervlakte-infiltraties gebundeld in één installatie: installatie 1. Alle onttrokken en ingebrachte volumes worden gekoppeld aan installatie 1. Bij deze indeling worden de onttrokken volumes van put 1 t/m 7 bij elkaar gevoegd en kan er op basis van de rapportages geen onderscheid meer gemaakt worden tussen de volumes van put 1 t/m 3 en die van put 4 t/m 7. Wanneer in de beschikking staat dat er over put 1 t/m 3 apart gerapporteerd moet worden, kan deze indeling niet worden gebruikt.
+    
+<figure id='image005'>
+  <img src="./media/Voorbeeld2-installaties1.jpg" alt="voorbeeldinstallaties2a" width="600"/>
+</figure>
+<BR>
+<figure id='image006'>
+  <img src="./media/Voorbeeld2-installaties2.jpg" alt="voorbeeldinstallaties2b" width="600"/>
+  <figcaption>Een grondwatergebruiksysteem (linksboven) dat op drie verschillende manieren is ingedeeld: in drie, twee en één installatie(s).</figcaption>
+</figure>
