@@ -244,7 +244,8 @@ Bij een grondwatergebruiksysteem dat bestaat uit twee of meerdere installaties, 
 
 Samenhang en consistentie tussen verschillende registratieobjecten
 -------------------------------
-    
+De basisregistratie ondergrond dwingt af dat gegevens in andere registratieobjecten waarnaar verwezen wordt, ook daadwerkelijk geregistreerd zijn. Dat betekent dat vanuit het grondwaterproductiedossier alleen verwezen kan worden naar een grondwatergebruiksysteem en een gerealiseerde installatie die in de basisregistratie ondergrond zijn geregistreerd.
+
 INSPIRE
 -------------------------------
 
