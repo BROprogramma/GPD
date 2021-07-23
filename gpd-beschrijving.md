@@ -232,3 +232,8 @@ Bij indeling 3 zijn alle onttrekkingsputten en oppervlakte-infiltraties gebundel
   <img src="./media/Voorbeeld2-installaties2.jpg" alt="voorbeeldinstallaties2b" width="600"/>
   <figcaption>Een grondwatergebruiksysteem (linksboven) dat op drie verschillende manieren is ingedeeld: in drie, twee en één installatie(s).</figcaption>
 </figure>
+
+Impact kwaliteitsregime IMBRO/A
+-------------------------------
+
+  
