@@ -1,5 +1,8 @@
-Inleiding grondwatergebruik
+Grondwaterproductiedossier
 ===================
+
+Inleiding grondwatergebruik
+----------------------------------
 
 Grondwater is een belangrijke bestaansbron. Voor uiteenlopende doelen wordt actief gebruik gemaakt van grondwater. Deels richt het gebruik zich op het grondwater zelf, maar bij ondiepe bodemenergie richt het gebruik zich ook op het warmte-leverend en -bufferend vermogen van de ondergrond en het zich daarin bevindende grondwater. Een goed zicht op het huidige gebruik van grondwater -in samenhang met het monitoren van grondwaterstanden en stijghoogtes- helpt om de effecten ervan te begrijpen en om nieuwe gebruiksaanvragen te kunnen beoordelen en zodoende het grondwater als belangrijke bestaansbron duurzaam te beschermen en beheren. Het registratiedomein Grondwatergebruik richt zich op de registratie en ontsluiting van informatie over de technische systemen die grondwater benutten. De belangrijkste focus in de gegevensdefinitie ligt daarbij op de locatie en diepte van het systeem en op het gebruik (hoeveelheid water en energie) van het grondwater. Dit zijn de gegevens met directe hergebruikswaarde.
 
