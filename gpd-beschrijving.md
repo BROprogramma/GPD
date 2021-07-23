@@ -236,4 +236,16 @@ Bij indeling 3 zijn alle onttrekkingsputten en oppervlakte-infiltraties gebundel
 Impact kwaliteitsregime IMBRO/A
 -------------------------------
 
-  
+Bij de aanlevering van historische gegevens over productiecijfers wordt geaccepteerd dat een aantal formeel verplichte gegevens geen waarde heeft of onbekend is. Deze gegevens worden in de basisregistratie ondergrond geregistreerd onder het IMBRO/A kwaliteitsregime. Het is mogelijk dat deze productiecijfers uit het verleden, die betrekking hebben op een zeker grondwatergebruiksysteem, worden opgevolgd door productiecijfers die wel voldoen aan het IMBRO kwaliteitsregime. Het kwaliteitsregime is een attribuut dat geen materiële geschiedenis kent. Daarom worden de productiecijfers die betrekking hebben op een zeker grondwatergebruiksysteem op de tijdlijn gesplitst in een grondwaterproductiedossier met een kwaliteitsregime IMBRO/A en een apart grondwaterproductiedossier met een kwaliteitsregime IMBRO. Vanaf het moment dat de productiecijfers aangeleverd kunnen worden in het IMBRO kwaliteitsregime (uiterlijk de datum van wettelijke inwerkingtreding), wordt het grondwaterproductiedossier met de historische gegevens met een IMBRO/A kwaliteitsregime afgesloten en wordt een nieuw grondwaterproductiedossier gestart.
+
+Een grondwaterproductiedossier dat onder kwaliteitsregime IMBRO is geregistreerd, kan betrekking hebben op zowel een grondwatergebruiksysteem met kwaliteitsregime IMBRO als IMBRO/A. Bij een IMBRO/A grondwaterproductiedossier is het het meest waarschijnlijk dat het betrekking heeft op een grondwatergebruiksysteem dat ook een IMBRO/A kwaliteitsregime heeft, maar in bepaalde gevallen is het mogelijk dat een grondwaterproductiedossier dat onder kwaliteitsregime IMBRO/A is geregistreerd betrekking heeft op een grondwatergebruiksysteem dat onder IMBRO is geregistreerd.
+
+Bij een grondwatergebruiksysteem dat bestaat uit twee of meerdere installaties, is bij de productiecijfers in het verleden niet altijd onderscheid gemaakt tussen de verschillende installaties. De productiecijfers zijn vaak een optelling van de productiecijfers van de verschillende installaties. Daarom kan bij historische gegevens die onder IMBRO/A worden geregistreerd, worden aangegeven dat de rapportage betrekking heeft op een grondwatergebruiksysteem (GUF) in plaats van op een gerealiseerde installatie van een grondwatergebruiksysteem.  
+
+Samenhang en consistentie tussen verschillende registratieobjecten
+-------------------------------
+    
+INSPIRE
+-------------------------------
+
+Het doel van de Europese kaderrichtlijn INSPIRE is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject grondwaterproductiedossier valt onder de INSPIRE. Om die reden moeten de gegevens in het registratieobject geschikt gemaakt worden voor uitwisseling volgens de INSPIRE-standaard. De gegevensinhoud van het grondwaterproductiedossier past het beste bij het INSPIRE-thema Environmental Monitoring Facilities (EF). Voor het gegevensmodel van dit registratieobject zal een mapping gemaakt worden op het gegevensmodel van INSPIRE-thema EF. De inhoud van deze mapping is geen onderdeel van deze catalogus.
