@@ -4,7 +4,7 @@ var respecConfig = {
   //canonicalURI: "WV",
   publishDate: "2021-07-23",
   maxTocLevel: 3,
-  editors: 
+  editors:[ 
     {
       name: "Geonovum",
       url: "https://www.geonovum.nl", 
