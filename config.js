@@ -1,14 +1,10 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+  specStatus: "GN-VV",
   specType: "IM",
   //canonicalURI: "WV",
-  //publishDate: "2019-03-25",
+  publishDate: "2021-07-23",
   maxTocLevel: 3,
-  editors: [
-    {
-      name: "TNO Geologische Dienst Nederland",
-      url: "https://www.tno.nl/nl/",
-    },
+  editors: 
     {
       name: "Geonovum",
       url: "https://www.geonovum.nl", 
