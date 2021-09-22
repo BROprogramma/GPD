@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+           xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           xmlns:gpdcom="http://www.broservices.nl/xsd/gpdcommon/1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.broservices.nl/xsd/gpdcommon/1.0"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="0.1.0">
+
+    <xs:annotation>
+        <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+            <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+        </xs:appinfo>
+    </xs:annotation>
+
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+
+    <xs:element name="GroundwaterUsageFacility"
+               type="gpdcom:GroundwaterUsageFacilityType"
+               substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Proxy van het grondwatergebruiksysteem, met uitsluitend het attribuut broId als identificerend gegeven.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="GroundwaterUsageFacilityType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="broId"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="brocom:RegistrationObjectCodeType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van een grondwatergebruiksysteem in de registratie ondergrond.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="GroundwaterUsageFacilityPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="gpdcom:GroundwaterUsageFacility"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+
+    <xs:element name="RealisedInstallation"
+               type="gpdcom:RealisedInstallationType"
+               substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Proxy van de gerealiseerde installatie uit het registratieobjecttype Grondwatergebruiksysteem, met uitsluitend de attributen broId en realisedInstallationId als identificerend gegeven.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="RealisedInstallationType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="broId"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="brocom:RegistrationObjectCodeType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van een grondwatergebruiksysteem in de registratie ondergrond.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="realisedInstallationId" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het door de bronhouder aangeleverde, identificerend gegeven van de gerealiseerde installatie.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:minLength value="1"/>
+                                <xs:maxLength value="100"/>
+                                <xs:pattern value="\S.*"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="RealisedInstallationPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="gpdcom:RealisedInstallation"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+
+    <xs:element name="Report"
+               type="gpdcom:ReportType"
+               substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kenmerken van productiecijfers die gezamenlijk, bij 1 rapportage zijn aangeleverd aan het bevoegd gezag.
+Explanation: Een rapportage bevat bijvoorbeeld de kenmerken van 1 jaaropgave. De jaaropgave van het volgende jaar wordt geregistreerd als een nieuwe rapportage.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="ReportType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="reportID" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het door de bronhouder aangeleverde identificerend gegeven van de rapportage.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="40"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="method"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="gpdcom:MethodType">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>Method</CodeListName>
+                                <CodeListURI/>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De methode waarmee de volumes van de Volume reeks zijn bepaald.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="reportPeriod"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="brocom:DatePeriodType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De periode waarop de rapportage betrekking heeft. Deze periode wordt gevormd door de datum van het begin van de periode en de datum van het einde van de periode.
+Explanation: De gegevens staan niet in een brondocument maar worden automatisch door de basisregistratie ondergrond gegenereerd. Bij jaaropgaven zal het een kalenderjaar betreffen. Bij tijdelijke onttrekkingen of in de bodem brengen, zoals bijvoorbeeld bij bronneringen, komt het voor dat de rapportage een specifieke periode bestrijkt.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="1"
+                           maxOccurs="unbounded"
+                           name="volumeSeries"
+                           nillable="false"
+                           type="gpdcom:VolumeSeriesType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kenmerken van de gerapporteerde volumes van deze rapportage in combinatie met de bijbehorende periode.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="installationOrFacility"
+                           type="gpdcom:InstallationOrFacilityPropertyType"
+                           minOccurs="1"
+                           maxOccurs="1"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="ReportPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="gpdcom:Report"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+
+    <xs:complexType name="VolumeSeriesType">
+        <xs:sequence>
+            <xs:element name="period"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="brocom:DatePeriodType">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De periode waarop het bijbehorende volume betrekking heeft.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="waterInOut"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="gpdcom:WaterInOutType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>WaterInOut</CodeListName>
+                        <CodeListURI/>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De richting waarin het water is verplaatst, waarop het gerapporteerde volume betrekking heeft.
+Explanation: Het kan onttrokken of in de bodem gebracht water betreffen. Indien sprake is van zowel onttrekken als in de bodem brengen, worden beide apart geregistreerd. Indien het oppervlakte-infiltratielichamen betreft, wordt dit aangegeven als 'ingebracht'.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="volume" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het totaal gemeten, of op een andere manier bepaalde volume over de betreffende periode.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                            <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m3"/>
+                        </xs:restriction>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="temperatureIn"
+                     minOccurs="0"
+                     maxOccurs="1"
+                     type="gpdcom:TemperatureInType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>TemperatureIn</CodeListName>
+                        <CodeListURI/>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De relatieve temperatuur van het in de ondergrond teruggebrachte water ten opzichte van de temperatuur van het onttrokken water.
+Explanation: Bij een open bodemenergiesysteem wordt tijdens verwarmingsbedrijf relatief koud water en tijdens koelingsbedrijf relatief warm water in de ondergrond terug gebracht ten opzichte van het onttrokken water. Een installatie kan in 1 maand wisselen van koelingsbedrijf naar verwarmingsbedrijf, of omgekeerd. In dat geval wordt in deze maand zowel het ingebrachte, relatief warme volume (tijdens koelingsbedrijf) als het ingebrachte, relatief koude volume (tijdens verwarmingsbedrijf) apart geregistreerd waarbij door middel van dit attribuut het onderscheid tussen beide wordt aangeduid.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="MethodType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:gpd:Method"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="TemperatureInType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:gpd:TemperatureIn"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="WaterInOutType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:gpd:WaterInOut"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:element name="InstallationOrFacility" type="gpdcom:InstallationOrFacilityType">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De rapportage heeft betrekking op de keuze tussen Gerealiseerde installatie of Grondwatergebruiksysteem.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="InstallationOrFacilityType">
+        <xs:choice minOccurs="1" maxOccurs="1">
+            <xs:element ref="gpdcom:RealisedInstallation"/>
+            <xs:element ref="gpdcom:GroundwaterUsageFacility"/>
+		</xs:choice>
+    </xs:complexType>
+    <xs:complexType name="InstallationOrFacilityPropertyType">
+        <xs:sequence minOccurs="1">
+            <xs:element ref="gpdcom:InstallationOrFacility"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
