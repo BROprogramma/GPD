@@ -200,7 +200,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
         <xs:complexContent>
             <xs:extension base="gml:AbstractFeatureType">
                 <xs:sequence>
-                    <xs:element name="reportID" minOccurs="1" maxOccurs="1">
+                    <xs:element name="reportId" minOccurs="1" maxOccurs="1">
                         <xs:annotation>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het door de bronhouder aangeleverde identificerend gegeven van de rapportage.</xs:documentation>
                         </xs:annotation>
