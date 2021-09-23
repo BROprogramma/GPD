@@ -21,7 +21,8 @@
 			elementFormDefault="qualified" 
 			attributeFormDefault="unqualified" 
 			version="0.1.0">
-	<xs:annotation>
+
+    <xs:annotation>
 		<xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
 			<gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
 		</xs:appinfo>
