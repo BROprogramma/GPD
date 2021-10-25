@@ -2,13 +2,18 @@ var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
   //canonicalURI: "WV",
-  //publishDate: "2019-03-25",
-  maxTocLevel: 3,
-  editors: [
-    {
-      name: "TNO Geologische Dienst Nederland",
-      url: "https://www.tno.nl/nl/",
-    },
+  //publishDate: "2021-07-23",
+ maxTocLevel: 4,
+logos: [
+  {
+    src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
+    href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
+    alt: "Ministerie BZK",
+    width: 776,
+    height: 163,
+    id: 'logo_minbzk',
+  }]  ,
+  editors:[ 
     {
       name: "Geonovum",
       url: "https://www.geonovum.nl", 
@@ -17,8 +22,8 @@ var respecConfig = {
   shortName: "gpd",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GPD",
-  //previousPublishDate: "2019-03-25",
-  //previousStatus: "GN-CV",
+  previousPublishDate: "2021-07-23",
+  previousStatus: "GN-VV",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",

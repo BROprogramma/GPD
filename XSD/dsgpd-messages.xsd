@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright 2012-2021 TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+           xmlns:dsgpd="http://www.broservices.nl/xsd/dsgpd/1.0"
+           xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           xmlns:gpdcom="http://www.broservices.nl/xsd/gpdcommon/1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.broservices.nl/xsd/dsgpd/1.0"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="0.1.0">
+
+    <xs:annotation>
+        <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+            <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+        </xs:appinfo>
+    </xs:annotation>
+
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/gpdcommon/1.0" schemaLocation="gpdcommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+    <!--
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/gpdcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/gpdcommon/1.0/gpdcommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+	-->
+	
+	<xs:element name="parseFault" type="brocom:ParseFaultType"/>
+    <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType"/>
+
+    <xs:element name="dispatchDataResponse" type="dsgpd:DispatchDataResponseType">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht DispatchDataResponse is een specialisatie van de abstract klasse DispatchDataResponse uit de package brocommon, waaraan het een dispatchDocument toevoegt. Met dit bericht kan een afnemer, als response op een DispatchDataRequest, de gegevens over een specifiek grondwaterproductiedossier registratieobject opvragen.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="DispatchDataResponseType">
+        <xs:complexContent>
+            <xs:extension base="brocom:DispatchResponseType">
+                <xs:sequence>
+                    <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="dispatchDocument"
+                           nillable="false"
+                           type="brocom:AbstractRegistrationObjectPropertyType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element dispatchDocument bevat de gegevens van een grondwaterproductiedossier registratieobject. Vanwege het polymorfe karakter is het type óf een BRODO uit de package brocom, óf een GPDODP, óf een GPDO uit de package dsgpd. Deze 3 types hebben allen als gemeenschappelijke vader het type AbstractRegistrationObject uit de package brocom.
+Explanation: Het element ontbreekt als de BRO geen registratieobject bevat met het opgegegeven broId. Het element is aanwezig in alle andere gevallen.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="GPD_O_DP"
+               type="dsgpd:GPD_O_DPType"
+               substitutionGroup="brocom:RegistrationObject">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het uitgiftedocument met de geregistreerde gegevens van grondwaterproductiedossier, dat wordt uitgeleverd als de afnemer tevens de bronhouder of dataleverancier is van het registratieobject, ongeacht of registratieobject uit registratie is genomen of niet.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="GPD_O_DPType">
+        <xs:complexContent>
+            <xs:extension base="brocom:RegistrationObjectType">
+                <xs:sequence>
+                    <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="registrationHistory"
+                           nillable="false"
+                           type="brocom:RegistrationHistoryType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.
+Explanation: De gegevens staan niet in een brondocument maar worden automatisch door de basisregistratie ondergrond gegenereerd.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="lifespan"
+                           nillable="false"
+                           type="dsgpd:LifespanType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De periode, bestaande uit de datum waarop het grondwaterproductiedossier in de werkelijkheid ontstaat (begintijd) en de datum van de definitieve beëindiging van het grondwaterproductiedossier (eindtijd).
+Explanation: De begintijd is gelijk aan de datum waarop de oudste gerapporteerde periode start. De eindtijd is alleen aanwezig wanneer er geen aanvullende rapportages over het grondwatergebruik meer worden verwacht na deze datum. Deze datum is gelijk aan de datum waarop de meest recente rapportageperiode eindigt.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="report"
+                           nillable="false"
+                           type="gpdcom:ReportPropertyType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="GPD_O_DPPropertyType">
+        <xs:sequence minOccurs="1">
+            <xs:element ref="dsgpd:GPD_O_DP"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="GPD_O"
+               type="dsgpd:GPD_OType"
+               substitutionGroup="dsgpd:GPD_O_DP">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het uitgiftedocument met de geregistreerde gegevens van een grondwaterproductiedossier, dat wordt uitgeleverd als de afnemer niet de bronhouder of dataleverancier is van het registratieobject en het registratieobject niet uit registratie is genomen.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="GPD_OType">
+        <xs:complexContent>
+            <xs:extension base="dsgpd:GPD_O_DPType"/>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="GPD_OPropertyType">
+        <xs:sequence minOccurs="1">
+            <xs:element ref="dsgpd:GPD_O"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="LifespanType">
+        <xs:sequence>
+            <xs:element name="startTime" type="xs:date" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Tijdstip waarop het object in de werkelijkheid is ontstaan.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="endTime" type="xs:date" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Tijdstip waarop het object in de werkelijkheid niet meer geldig is.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

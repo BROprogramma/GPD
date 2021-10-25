@@ -5,8 +5,8 @@
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel='shortcut icon' type='image/x-icon' href='https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico' />
-  <link rel="stylesheet" type="text/css" href="localstyle.css" />
-  <title>BRO Gegevenscatalogus Grondwaterproductiedossier (GPD)</title>
+  <link rel="stylesheet" type="text/css" href="https://docs.geostandaarden.nl/bro/gen/localstyle.css" />
+  <title>Basisregistratie Ondergrond Catalogus Grondwaterproductiedossier (GPD)</title>
   <script class='remove' src='https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js' async></script>
   <script class="remove" src="config.js"></script>
 </head>
@@ -23,7 +23,7 @@
   <section id='sotd'></section>
 
   <!-- INLEIDING -->
-  <section id='inleiding'>
+  <section id='inleiding' class='generic informative'>
     <h2>Inleiding</h2>
     <section id='doel-en-doelgroep' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/doel-en-doelgroep.html'>
     </section>
@@ -35,40 +35,55 @@
     <h3>Leeswijzer</h3>
       	<p><a href ="#inleiding">Hoofdstuk 1</a> geeft het doel en de doelgroep van een catalogus.</p>
 	    <p><a href ="#algemene-kenmerken-en-begrippen">Hoofdstuk 2</a> behandelt enkele algemene aspecten van het BRO-systeem en begrippen van algemene aard.</p>
-	    <p><a href ="#bodemkundig wandonderzoek">Hoofdstuk 3</a> plaatst het object in de gegevenssystematiek van de basisregistratie ondergrond en vertelt wat de benadering is geweest bij het opstellen van de <a href="#cat">gegevensdefinitie</a>.</p>
-	    <p><a href ="#intro-gegevensdefinitie">Hoofdstuk 4</a> vertelt hoe de catalogus is opgebouwd en welke aspecten van de gegevens daarin worden beschreven.</p>
+	    <p><a href ="#grondwaterproductiedossier">Hoofdstuk 3</a> is de toelichting op de gegevensdefinitie van het registratieobject die in de ministeriële regeling is opgenomen.</p>
+	    <p><a href ="#opbouw-gegevensdefinitie">Hoofdstuk 4</a> vertelt hoe de gegevensdefinitie is opgebouwd en welke aspecten van de gegevens daarin worden beschreven.</p>
+	    <p><a href ="#gegevensdefinitie-0">Hoofdstuk 5</a> geeft de inhoud weer van het eerste artikel van de ministeriële regeling en dat is het deel waarin de definitie is opgenomen van het registratieobject, van de delen waaruit het is opgebouwd, de entiteiten, en van de eigenschappen van die delen, de attributen.</p>
+	    <p><a href ="#uitbreidbare-waardelijsten">Hoofdstuk 6</a> geeft de inhoud weer van het tweede artikel van de ministeriële regeling en dat is het deel waarin de uitbreidbare waardelijsten staan waarnaar in hoofdstuk 5 verwezen wordt.</p>
     </section>
   </section>
  
   <!-- ALGEMENE KENMERKEN EN BEGRIPPEN-->
-  <section id='algemene-kenmerken-en-begrippen' data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html'
-    class='generic'></section>
+  <section id='algemene-kenmerken-en-begrippen' data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html' class='generic informative'>
+  </section>
+	
+  <!-- BESCHRIJVING REGISTRATIEOBJECT GPD, HST3-->
+  <section id="grondwaterproductiedossier" data-format="markdown" data-include='gpd-beschrijving.md'>
+  </section>
 
   <!-- INTRODUCTIE GEGEVENSDEFINITIE GENERIEK-->
-  <section id="intro-gegevensdefinitie">
-    <h2>De inhoud van de catalogus</h2>
-     <div id="intro-cat-inleiding" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html" class="generic"></div>
-    <section data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html" class="generic"></section>
-    <section id="type-formaten">
-      <h3>Formaten in de gegevensdefinitie</h3>
-      <!-- hier alleen de domeinuitleg includeren voor domeinen die in het registratieobject gebruikt worden -->
-      <p>Een formaat beschrijft welke waarden een attribuut mag hebben. Formaten zijn van een bepaald type. De typen die in de gegevensdefinitie gebruikt zijn, worden hieronder toegelicht.</p>
-      <section id="enumeratie" data-include="https://docs.geostandaarden.nl/bro/gen/enumeratie.html" class="generic"></section>
-      <section id="codelijst" data-include="https://docs.geostandaarden.nl/bro/gen/codelijst.html" class="generic"></section>
-      <section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html" class="generic"></section>
-      <section id="code" data-include="https://docs.geostandaarden.nl/bro/gen/code.html" class="generic"></section>
-      <section id="meetwaarde" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde.html" class="generic"></section>
-      <section id="datumtijd" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html" class="generic"></section>
-      <section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/organisatie.html" class="generic"></section>    
-    </section>
-    <section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html" class="generic"></section>
-  </section>
+  <section id="opbouw-gegevensdefinitie" class='generic informative'>
+    	<h2>Opbouw van de gegevensdefinitie</h2>
+	<section id="gegevensdefinitie" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html"></section>
+	<section id="domeinen">
+		<h3>Domeinen</h3>
+		<div id="domeinen-intro" data-include="https://docs.geostandaarden.nl/bro/gen/domeinen-intro.html"></div>
+		<section id="code" data-include="https://docs.geostandaarden.nl/bro/gen/code.html"></section>
+		<section id="gemeten-waarden">
+			<h4>Gemeten waarden</h4>
+				<div id="gemeten-waarden-intro" data-include="https://docs.geostandaarden.nl/bro/gen/gemeten-waarden-intro.html"></div>
+				<section id="meetwaarde" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde.html"></section>
+				<section id="meetwaarde-in-machten" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde-machten.html"></section>
+				<div id="inname-gemeten-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/inname-gemeten-waarden.html"></div>
+		</section>
+		<section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html"></section>		
+		<section id="tijdstip" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html"></section>
+		<section id="Tijdinterval" data-include="https://docs.geostandaarden.nl/bro/gen/Tijdinterval.html"></section>
+		<section id="waardelijsten">
+			<h4>Waardelijsten</h4>
+				<div id="waardelijst-intro" data-include="https://docs.geostandaarden.nl/bro/gen/waardelijst.html"></div>
+				<section id="waardelijst-niet-uitbreidbaar" data-include="https://docs.geostandaarden.nl/bro/gen/enumeratie.html"></section>
+				<section id="waardelijst-uitbreidbaar" data-include="https://docs.geostandaarden.nl/bro/gen/codelijst.html"></section>
+		</section>
+		<section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/organisatie.html"></section>
+	</section>
+	<section id="meetreeks" data-include="https://docs.geostandaarden.nl/bro/gen/meetreeks.html"></section>
+	<section id="domeinmodel" data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html"></section>
+	<section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html"></section>
+</section>
   
   <!-- MODEL -->
   <div data-include="data/GPD-cat.respec.html" data-include-replace=true></div>
   
-  <!-- BESCHRIJVING -->
-  <section id="gpd-model" data-format="markdown" data-include='gpd-beschrijving.md'></section>
 </body>
 
 </html>
