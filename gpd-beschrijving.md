@@ -82,6 +82,10 @@ De periode waarover het gemeten gebruik wordt gerapporteerd, is wettelijk vastge
 
 De gegevens in de basisregistratie ondergrond worden door diverse organisatie hergebruikt. Het is daarbij van belang dat deze gebruikers de juiste conclusies kunnen trekken over bijvoorbeeld het totaal onttrokken grondwater in een bepaald gebied, in een bepaalde periode. Om die reden is het van belang dat een volume, in een bepaalde periode onttrokken (of ingebracht) water, slechts één keer wordt geregistreerd in de basisregistratie ondergrond. Dat betekent dat als van een bepaalde installatie de maandvolumes worden geregistreerd in de basisregistratie ondergrond, daarnaast niet het totale jaarvolume geregistreerd mag worden.
 
+#### Openbaarheid van de gegevens
+
+In het kader van de Wet beveiliging netwerk- en informatiesystemen vallen drinkwaterbedrijven onder de vitale sectoren. Bronhouders kunnen daarom aangeven of grondwaterproductiegegevens van drinkwateronttrekkingsputten (geregistreerd in het Registratieobject Grondwatergebruiksysteem), niet openbaar te raadplegen zijn. In dat geval zal het gehele grondwaterproductiedossier van deze objecten aan een beperkte groep (door bronhouders aan te wijzen) gebruikers uitgeleverd worden. Voor overige gebruikers is geen enkel grondwaterproductiegegeven in te zien als open data.
+
 Belangrijkste entiteiten
 ------------------------
 
