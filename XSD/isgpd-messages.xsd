@@ -181,7 +181,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
                     </xs:element>
 			<!---->
 			 <xs:element name="publiclyAvailable"
-                           type="bro:IndicationYesNoTypeType"
+                           type="brocom:IndicationYesNoType"
                            minOccurs="0"
                            maxOccurs="1">
                   <xs:annotation>
