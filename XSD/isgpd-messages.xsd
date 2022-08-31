@@ -21,7 +21,7 @@
            targetNamespace="http://www.broservices.nl/xsd/isgpd/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.1.0">
+           version="0.2.0">
 
     <xs:annotation>
         <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -139,7 +139,7 @@ Explanation: De juiste datum is opgenomen in het sourceDocument.</xs:documentati
         <xs:complexContent>
             <xs:extension base="gml:AbstractFeatureType">
                 <xs:sequence>
-                    <xs:element name="endTime" type="xs:date" minOccurs="0" maxOccurs="1">
+                    <xs:element name="endTime" type="xs:date" minOccurs="1" maxOccurs="1">
                         <xs:annotation>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Tijdstip waarop het object in de werkelijkheid niet meer geldig is.</xs:documentation>
                         </xs:annotation>
@@ -179,17 +179,15 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Tijdstip waarop het object in de werkelijkheid is ontstaan.</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-			<!---->
-			 <xs:element name="publiclyAvailable"
+                    <xs:element name="publiclyAvailable"
                            type="brocom:IndicationYesNoType"
                            minOccurs="0"
                            maxOccurs="1">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De indicatie die aangeeft of het objecttype Grondwaterproductiedossier voor alle gebruikers te raadplegen is.
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De indicatie die aangeeft of het objecttype Grondwaterproductiedossier voor alle gebruikers te raadplegen is.
 Explanation: Indien dit nee is, is dit Grondwaterproductiedossier niet voor alle gebruikers te raadplegen in het kader van de Wet beveiliging netwerk- en informatiesystemen.</xs:documentation>
-                  </xs:annotation>
-                </xs:element>
-			<!---->
+                        </xs:annotation>
+                    </xs:element>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
