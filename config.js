@@ -1,8 +1,8 @@
 var respecConfig = {
-  specStatus: "GN-DEF",
+  specStatus: "GN-WV",
   specType: "IM",
   //canonicalURI: "WV",
-  publishDate: "2022-01-13",
+  //publishDate: "2022-01-13",
  maxTocLevel: 4,
 logos: [
   {
@@ -22,8 +22,8 @@ logos: [
   shortName: "gpd",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GPD",
-  previousPublishDate: "2021-07-23",
-  previousStatus: "GN-VV",
+  previousPublishDate: "2022-01-13",
+  previousStatus: "GN-DEF",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
