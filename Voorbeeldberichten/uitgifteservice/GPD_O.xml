@@ -33,8 +33,8 @@
 			<brocom:deliveryResponsibleParty>...</brocom:deliveryResponsibleParty>
 			-->
 			<brocom:qualityRegime>IMBRO</brocom:qualityRegime>
-      <!-- Optional: -->
-      <publiclyAvailable>ja</publiclyAvailable>
+            <!-- Optional: -->
+            <publiclyAvailable>ja</publiclyAvailable>
             <registrationHistory>
                 <brocom:objectRegistrationTime>2021-08-06T16:57:49+02:00</brocom:objectRegistrationTime>
                 <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</brocom:registrationStatus>
@@ -44,6 +44,7 @@
                 <brocom:deregistered>nee</brocom:deregistered>
                 <brocom:reregistered>nee</brocom:reregistered>
             </registrationHistory>
+            <!-- Optional: -->
 			<lifespan>
 				<startTime>2021-06-01</startTime>
 				<!-- Optional: -->

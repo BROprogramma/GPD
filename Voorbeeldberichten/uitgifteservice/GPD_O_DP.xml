@@ -42,6 +42,7 @@
                 <brocom:deregistered>nee</brocom:deregistered>
                 <brocom:reregistered>nee</brocom:reregistered>
             </registrationHistory>
+            <!-- Optional: -->
 			<lifespan>
 				<startTime>2021-06-01</startTime>
 				<!-- Optional: -->
