@@ -41,7 +41,7 @@
       </section>
    <section id="">
       <h2>Het domeinmodel   </h2>
-      <div class="imageinfo overview"><img src="data/Images/EAID_D9578C60_D3C8_4660_9BC8_07F4862E13E4.png" usemap="#imagemap-EAID_D9578C60_D3C8_4660_9BC8_07F4862E13E4" alt="Diagram "><map name="imagemap-EAID_D9578C60_D3C8_4660_9BC8_07F4862E13E4"><area shape="rect" alt="Volume reeks" coords="14,774,464,940" href="#graph_EAID_79699DAA_2A3D_4c61_867C_72E0F7E8FB60"><area shape="rect" alt="Rapportage" coords="14,540,344,726" href="#graph_EAID_BFF344A1_AAAC_49e4_817E_130BD5AB501E"><area shape="rect" alt="Grondwaterproductiedossier" coords="14,183,377,431" href="#graph_EAID_A883D376_9CED_4d28_B962_894E6688DC88"><area shape="rect" alt="Registratieobject" coords="108,14,250,79" href="#graph_EAID_1A9F05B6_CB32_4521_93D6_6062B390DB3E"></map><p><b>Domeinmodel GPD conceptueel</b></p>
+      <div class="imageinfo overview"><img src="data/Images/EAID_D9578C60_D3C8_4660_9BC8_07F4862E13E4.png" usemap="#imagemap-EAID_D9578C60_D3C8_4660_9BC8_07F4862E13E4" alt="Diagram &#xA;                        &#xA;                     "><map name="imagemap-EAID_D9578C60_D3C8_4660_9BC8_07F4862E13E4"><area shape="rect" alt="GerealiseerdeInstallatieOfGrondwatergebruiksysteem" coords="527,591,880,680" href="#graph_EAID_6EB65D4E_EA8A_4a77_9EE9_1464F9E3AEB8"><area shape="rect" alt="Volume reeks" coords="14,774,464,940" href="#graph_EAID_79699DAA_2A3D_4c61_867C_72E0F7E8FB60"><area shape="rect" alt="Rapportage" coords="14,540,344,726" href="#graph_EAID_BFF344A1_AAAC_49e4_817E_130BD5AB501E"><area shape="rect" alt="Grondwaterproductiedossier" coords="14,183,377,431" href="#graph_EAID_A883D376_9CED_4d28_B962_894E6688DC88"><area shape="rect" alt="Registratieobject" coords="108,14,250,79" href="#graph_EAID_1A9F05B6_CB32_4521_93D6_6062B390DB3E"></map><p><b>Domeinmodel GPD conceptueel</b></p>
       </div>
    </section>
    <section id="">
@@ -115,6 +115,10 @@
                         <p>De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan
                            het object toe. </p>
                         </td>
+                  </tr>
+                  <tr>
+                     <th>Identificerend</th>
+                     <td>Ja</td>
                   </tr>
                </tbody>
             </table>
@@ -304,7 +308,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Kwaliteitsregime</td>
+                     <td>
+                        Kwaliteitsregime
+                        </td>
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
@@ -351,7 +357,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>IndicatieJaNee</td>
+                     <td>
+                        IndicatieJaNee
+                        </td>
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
@@ -374,7 +382,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d18917e1730"></a><section id="detail_d18917e1730">
+            </section><a class="anchor" id="detail_d21327e1849"></a><section id="detail_d21327e1849">
             <h4>  registratiegeschiedenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -415,7 +423,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d18917e1939"></a><section id="detail_d18917e1939">
+         </section><a class="anchor" id="detail_d21327e2076"></a><section id="detail_d21327e2076">
             <h4>  levensduur</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -429,8 +437,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>De periode, bestaande uit de datum waarop het grondwaterproductiedossier in de werkelijkheid
-                           ontstaat (<em>begintijd</em>) en de datum van de definitieve beëindiging van het grondwaterproductiedossier (<em>eindtijd</em>).</p>
+                        <p>De periode waarop het <em>Grondwaterproductiedossier</em> betrekking heeft. Deze periode wordt gevormd door de oudste datum van enige <em>Volume reeks</em> als <em>begintijd</em> en de jongste datum van enige <em>Volume reeks</em> als <em>eindtijd</em>.</p>
                         </td>
                   </tr>
                   <tr>
@@ -439,7 +446,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td>0..1</td>
                   </tr>
                   <tr>
                      <th>Gegevensgroeptype</th>
@@ -448,20 +455,13 @@
                         </td>
                   </tr>
                   <tr>
-                     <th>Regels</th>
-                     <td>
-                        
-                        <p>De <em>eindtijd</em> is gelijk aan de meest recente <em>einddatum</em> van <em>rapportageperiode</em>. </p>
-                        </td>
-                  </tr>
-                  <tr>
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>De <em>begintijd</em> is gelijk aan de datum waarop de oudste gerapporteerde periode start.
-                           De <em>eindtijd</em> is alleen aanwezig wanneer er geen aanvullende rapportages over het grondwatergebruik
-                           meer worden verwacht na deze datum. Deze datum is gelijk aan de datum waarop de meest
-                           recente rapportageperiode eindigt. </p>
+                        <p>Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
+                           ondergrond afgeleid van de begindatum en de einddatum van de <em>periode</em> van de <em>Volume reeks(en)</em> in de aangeleverde <em>Rapportage(s)</em>.
+                           De <em>eindtijd</em> van de gegevensgroep wordt pas vastgesteld op het moment dat het <em>Grondwaterproductiedossier</em> wordt beëindigd (omdat er geen <em>Rapportage(s)</em> meer worden verwacht).
+                           Het gegeven is alleen aanwezig wanneer er ten minste één <em>Rapportage</em> is aangeleverd.</p>
                         </td>
                   </tr>
                </tbody>
@@ -514,7 +514,7 @@
          </section>
       </section><a class="anchor" id="graph_EAID_BFF344A1_AAAC_49e4_817E_130BD5AB501E"></a><a class="anchor" id="global_class_GPD_Rapportage"></a><section id="global_class_GPD_Rapportage">
          <h3>   Rapportage</h3>
-         <div class="imageinfo "><img src="data/Images/EAID_E98E9D6B_1B77_4823_A594_ECF4161CCC8F.png" usemap="#imagemap-EAID_E98E9D6B_1B77_4823_A594_ECF4161CCC8F" alt="Diagram "><map name="imagemap-EAID_E98E9D6B_1B77_4823_A594_ECF4161CCC8F"><area shape="rect" alt="Volume reeks" coords="14,255,413,416" href="#graph_EAID_79699DAA_2A3D_4c61_867C_72E0F7E8FB60"><area shape="rect" alt="Rapportage" coords="14,14,284,203" href="#graph_EAID_BFF344A1_AAAC_49e4_817E_130BD5AB501E"></map><p><b></b></p>
+         <div class="imageinfo "><img src="data/Images/EAID_E98E9D6B_1B77_4823_A594_ECF4161CCC8F.png" usemap="#imagemap-EAID_E98E9D6B_1B77_4823_A594_ECF4161CCC8F" alt="Diagram "><map name="imagemap-EAID_E98E9D6B_1B77_4823_A594_ECF4161CCC8F"><area shape="rect" alt="GerealiseerdeInstallatieOfGrondwatergebruiksysteem" coords="465,64,838,151" href="#graph_EAID_6EB65D4E_EA8A_4a77_9EE9_1464F9E3AEB8"><area shape="rect" alt="Volume reeks" coords="14,255,413,416" href="#graph_EAID_79699DAA_2A3D_4c61_867C_72E0F7E8FB60"><area shape="rect" alt="Rapportage" coords="14,14,284,203" href="#graph_EAID_BFF344A1_AAAC_49e4_817E_130BD5AB501E"></map><p><b></b></p>
          </div>
          <table style="width: 100%;">
             <colgroup style="width: 30%;"></colgroup>
@@ -582,6 +582,10 @@
                         <p>De waarde van het attribuut moet uniek zijn binnen dit grondwaterproductiedossier.</p>
                         </td>
                   </tr>
+                  <tr>
+                     <th>Identificerend</th>
+                     <td>Ja</td>
+                  </tr>
                </tbody>
             </table>
             </section><a class="anchor" id="detail_attribute_GPD_Rapportage_inwinmethode"></a><section id="detail_attribute_GPD_Rapportage_inwinmethode">
@@ -616,7 +620,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Inwinmethode</td>
+                     <td>
+                        Inwinmethode
+                        </td>
                   </tr>
                </tbody>
             </table>
@@ -653,7 +659,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Datuminterval</td>
+                     <td>
+                        Datuminterval
+                        </td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -668,7 +676,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d18917e3010"></a><section id="detail_d18917e3010">
+            </section><a class="anchor" id="detail_d21327e3178"></a><section id="detail_d21327e3178">
             <h4>  volume reeks</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -745,6 +753,7 @@
                      <td>
                         
                         Keuze uit
+                        Gerealiseerde installatie, Grondwatergebruiksysteem
                         
                         </td>
                   </tr>
@@ -826,14 +835,17 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Datuminterval</td>
+                     <td>
+                        Datuminterval
+                        </td>
                   </tr>
                   <tr>
                      <th>Regels</th>
                      <td>
                         
-                        <p>De <em>begindatum</em> mag niet liggen voor de <em>begintijd</em> van <em>levensduur</em> van <em>Grondwatergebruiksysteem.</em>
-                           </p>
+                        <p>De einddatum mag niet liggen voor de begindatum.
+                           De begindatum mag niet liggen voor de <em>begintijd</em> van de <em>levensduur</em> van het <em>Grondwatergebruiksysteem</em>.
+                           De einddatum mag niet liggen voor de <em>eindtijd</em> van de <em>levensduur</em> van het <em>Grondwatergebruiksysteem</em>.</p>
                         </td>
                   </tr>
                </tbody>
@@ -871,7 +883,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Verplaatsingsrichting</td>
+                     <td>
+                        Verplaatsingsrichting
+                        </td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -958,7 +972,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>TemperatuurIngebracht</td>
+                     <td>
+                        TemperatuurIngebracht
+                        </td>
                   </tr>
                   <tr>
                      <th>Regels</th>
@@ -1046,7 +1062,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>DatumTijd</td>
+                     <td>
+                        DatumTijd
+                        </td>
                   </tr>
                </tbody>
             </table>
@@ -1082,7 +1100,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Registratiestatus</td>
+                     <td>
+                        Registratiestatus
+                        </td>
                   </tr>
                </tbody>
             </table>
@@ -1119,7 +1139,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>DatumTijd</td>
+                     <td>
+                        DatumTijd
+                        </td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -1164,7 +1186,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>DatumTijd</td>
+                     <td>
+                        DatumTijd
+                        </td>
                   </tr>
                   <tr>
                      <th>Regels</th>
@@ -1217,7 +1241,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>IndicatieJaNee</td>
+                     <td>
+                        IndicatieJaNee
+                        </td>
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
@@ -1258,7 +1284,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>DatumTijd</td>
+                     <td>
+                        DatumTijd
+                        </td>
                   </tr>
                   <tr>
                      <th>Regels</th>
@@ -1303,7 +1331,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>IndicatieJaNee</td>
+                     <td>
+                        IndicatieJaNee
+                        </td>
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
@@ -1354,7 +1384,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>DatumTijd</td>
+                     <td>
+                        DatumTijd
+                        </td>
                   </tr>
                   <tr>
                      <th>Regels</th>
@@ -1399,7 +1431,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>IndicatieJaNee</td>
+                     <td>
+                        IndicatieJaNee
+                        </td>
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
@@ -1451,7 +1485,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>DatumTijd</td>
+                     <td>
+                        DatumTijd
+                        </td>
                   </tr>
                   <tr>
                      <th>Regels</th>
@@ -1496,7 +1532,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>IndicatieJaNee</td>
+                     <td>
+                        IndicatieJaNee
+                        </td>
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
@@ -1546,7 +1584,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>DatumTijd</td>
+                     <td>
+                        DatumTijd
+                        </td>
                   </tr>
                   <tr>
                      <th>Regels</th>
@@ -1599,7 +1639,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>Tijdstip waarop het object in de werkelijkheid is ontstaan. </p>
+                        <p>De oudste begindatum van de <em>periode</em> van enige <em>Volume reeks</em>.</p>
                         </td>
                   </tr>
                   <tr>
@@ -1620,7 +1660,9 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Datum</td>
+                     <td>
+                        Datum
+                        </td>
                   </tr>
                </tbody>
             </table>
@@ -1643,7 +1685,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>Tijdstip waarop het object in de werkelijkheid niet meer geldig is.</p>
+                        <p>De jongste einddatum van de <em>periode</em> van enige <em>Volume reeks</em>.</p>
                         </td>
                   </tr>
                   <tr>
@@ -1664,15 +1706,32 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Datum</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Ja</td>
+                     <td>
+                        Datum
+                        </td>
                   </tr>
                </tbody>
             </table>
             </section>
+      </section><a class="anchor" id="graph_EAID_6EB65D4E_EA8A_4a77_9EE9_1464F9E3AEB8"></a><a class="anchor" id="global_class_GPD_GerealiseerdeInstallatieOfGrondwatergebruiksysteem"></a><section id="global_class_GPD_GerealiseerdeInstallatieOfGrondwatergebruiksysteem">
+         <h3>   GerealiseerdeInstallatieOfGrondwatergebruiksysteem</h3>
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Type gegeven</th>
+                  <td>Keuze</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     <p>De rapportage heeft betrekking op de keuze tussen Gerealiseerde installatie of Grondwatergebruiksysteem.</p>
+                     </td>
+               </tr>
+            </tbody>
+         </table>
       </section>
    </section>
 </section><section>
