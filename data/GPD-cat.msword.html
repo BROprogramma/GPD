@@ -14,8 +14,8 @@
    </head>
    <body>
       <p>Conceptual model/Grondwaterproductiedossier (GPD) conceptueel/20210721</p>
-      <p>Imvertor: 1.67.1</p>
-      <p>Model release: Conceptualmodel-GrondwaterproductiedossierGPDconceptueel-0.99-3-20210721-20230109-110923</p>
+      <p>Imvertor: 2.0.0</p>
+      <p>Model release: Conceptualmodel-GrondwaterproductiedossierGPDconceptueel-0.99-3-20210721-20230412-113602</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -406,7 +406,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d20747e1859"></a><section id="detail_d20747e1859">
+                     </section><a class="anchor" id="detail_d21683e1896"></a><section id="detail_d21683e1896">
                      <h4>  registratiegeschiedenis</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -447,7 +447,7 @@
                            </tr>
                         </tbody>
                      </table>
-                  </section><a class="anchor" id="detail_d20747e2086"></a><section id="detail_d20747e2086">
+                  </section><a class="anchor" id="detail_d21683e2123"></a><section id="detail_d21683e2123">
                      <h4>  levensduur</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -700,7 +700,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d20747e3188"></a><section id="detail_d20747e3188">
+                     </section><a class="anchor" id="detail_d21683e3225"></a><section id="detail_d21683e3225">
                      <h4>  volume reeks</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1004,8 +1004,15 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>installatiefunctie</em> van de entiteit <em>gerealiseerde installatie</em> van het registratieobject <em>grondwatergebruiksysteem</em> waar het volume betrekking op heeft gelijk is aan <em>openBodemenergiesysteem</em> en de waarde van het attribuut <em>verplaatsingsrichting</em> gelijk is aan <em>ingebracht</em>.<br clear="none">
-                                    In alle andere gevallen ontbreekt het attribuut.</p>
+                                 <p>Het attribuut moet aanwezig zijn wanneer de relatie <em>gerealiseerde installatie of grondwatergebruiksysteem</em> van de <em>rapportage</em> waar de <em>volume reeks</em> betrekking op heeft, is vastgelegd op het niveau van een <em>gerealiseerde installatie</em>, 
+                                    én de waarde van het attribuut <em>installatiefunctie</em> van deze <em>gerealiseerde installatie</em> is gelijk aan <em>openBodemenergiesysteem</em>,
+                                    én de waarde van het attribuut <em>verplaatsingsrichting</em> is gelijk aan <em>ingebracht</em>.</p>
+                                 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de relatie <em>gerealiseerde installatie of grondwatergebruiksysteem</em> van de <em>rapportage</em> waar de <em>volume reeks</em> betrekking op heeft, is vastgelegd op het niveau van een <em>grondwatergebruiksysteem</em>, 
+                                    én er is ten minste één <em>gerealiseerde installatie</em> van dit <em>grondwatergebruiksysteem</em> waarbij de waarde van het attribuut <em>installatiefunctie</em> gelijk is aan <em>openBodemenergiesysteem</em>,
+                                    én de waarde van het attribuut <em>verplaatsingsrichting</em> is gelijk aan <em>ingebracht</em>.</p>
+                                 
+                                 <p>In alle andere gevallen ontbreekt het attribuut.</p>
                                  </td>
                            </tr>
                            <tr>
