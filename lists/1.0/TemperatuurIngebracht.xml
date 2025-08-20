@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemperatuurIngebracht>
+		<Waarde>koud</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het in de ondergrond teruggebracht water is relatief koud ten opzichte van het onttrokken water.</Omschrijving>
+	</TemperatuurIngebracht>
+	<TemperatuurIngebracht>
+		<Waarde>warm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het in de ondergrond teruggebracht water is relatief warm ten opzichte van het onttrokken water.</Omschrijving>
+	</TemperatuurIngebracht>
+	<TemperatuurIngebracht>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is onbekend wat de relatieve temperatuur is van het in de ondergrond teruggebracht water (IMBRO/A kwaliteitsregime).</Omschrijving>
+	</TemperatuurIngebracht>
+</domeintabel>
