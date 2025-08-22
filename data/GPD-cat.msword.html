@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Grondwaterproductiedossier (GPD) conceptueel/20220113</p>
       <p>Imvertor: 3.0.0</p>
-      <p>Model release: Conceptualmodel-GrondwaterproductiedossierGPDconceptueel-1.0-3-20220113-20250822-184912</p>
+      <p>Model release: Conceptualmodel-GrondwaterproductiedossierGPDconceptueel-1.0-3-20220113-20250822-185442</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -413,7 +413,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d25603e2878">
+                  <section id="detail_d25586e2878">
                      <h4>  registratiegeschiedenis</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -455,7 +455,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d25603e3105">
+                  <section id="detail_d25586e3105">
                      <h4>  levensduur</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -709,7 +709,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d25603e4225">
+                  <section id="detail_d25586e4225">
                      <h4>  volume reeks</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1840,13 +1840,37 @@
                </tbody>
             </table>
             
-            <table style="width: 100%;">
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <th>Waarde</th>
                      <th>IMBRO</th>
                      <th>IMBRO/A</th>
                      <th>Omschrijving</th>
+                  </tr>
+                  <tr>
+                     <td>berekening</td>
+                     <td>v</td>
+                     <td>v</td>
+                     <td>De volumes in de Volume reeks zijn bepaald door middel van een berekening op basis
+                        van aannames en gegevens die wel bekend zijn, zoals het aantal draaiuren maal het
+                        debiet van de pomp.</td>
+                  </tr>
+                  <tr>
+                     <td>watermeter</td>
+                     <td>v</td>
+                     <td>v</td>
+                     <td>De volumes in de Volume reeks zijn bepaald met behulp van een watermeter.</td>
+                  </tr>
+                  <tr>
+                     <td>onbekend</td>
+                     <td>&nbsp;</td>
+                     <td>v</td>
+                     <td>Het is onbekend hoe de volumes in de Volume reeks zijn bepaald (IMBRO/A kwaliteitsregime).</td>
                   </tr>
                </tbody>
             </table>
@@ -1885,13 +1909,40 @@
                </tbody>
             </table>
             
-            <table style="width: 100%;">
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <th>Waarde</th>
                      <th>IMBRO</th>
                      <th>IMBRO/A</th>
                      <th>Omschrijving</th>
+                  </tr>
+                  <tr>
+                     <td>aangevuld</td>
+                     <td>v</td>
+                     <td>v</td>
+                     <td>Het registeren van de gegevens van het object heeft na de start van de registratie
+                        een vervolg gekregen. De gegevens in de registratie ondergrond zijn minimaal een keer
+                        aangevuld met nieuwe gegevens.</td>
+                  </tr>
+                  <tr>
+                     <td>geregistreerd</td>
+                     <td>v</td>
+                     <td>v</td>
+                     <td>Het registeren van de gegevens van het object is gestart. De gegevens uit het eerste
+                        brondocument zijn in de registratie ondergrond vastgelegd. Er zijn daarna geen nieuwe
+                        gegevens geregistreerd.</td>
+                  </tr>
+                  <tr>
+                     <td>voltooid</td>
+                     <td>v</td>
+                     <td>v</td>
+                     <td>Het registeren van de gegevens van het object is voltooid. Alle gegevens zijn in de
+                        registratie ondergrond vastgelegd en er kunnen geen nieuwe gegevens meer worden geregistreerd.</td>
                   </tr>
                </tbody>
             </table>
@@ -1931,13 +1982,38 @@
                </tbody>
             </table>
             
-            <table style="width: 100%;">
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <th>Waarde</th>
                      <th>IMBRO</th>
                      <th>IMBRO/A</th>
                      <th>Omschrijving</th>
+                  </tr>
+                  <tr>
+                     <td>koud</td>
+                     <td>v</td>
+                     <td>v</td>
+                     <td>Het in de ondergrond teruggebracht water is relatief koud ten opzichte van het onttrokken
+                        water.</td>
+                  </tr>
+                  <tr>
+                     <td>warm</td>
+                     <td>v</td>
+                     <td>v</td>
+                     <td>Het in de ondergrond teruggebracht water is relatief warm ten opzichte van het onttrokken
+                        water.</td>
+                  </tr>
+                  <tr>
+                     <td>onbekend</td>
+                     <td>&nbsp;</td>
+                     <td>v</td>
+                     <td>Het is onbekend wat de relatieve temperatuur is van het in de ondergrond teruggebracht
+                        water (IMBRO/A kwaliteitsregime).</td>
                   </tr>
                </tbody>
             </table>
@@ -1977,13 +2053,32 @@
                </tbody>
             </table>
             
-            <table style="width: 100%;">
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup style="width: 25%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <th>Waarde</th>
                      <th>IMBRO</th>
                      <th>IMBRO/A</th>
                      <th>Omschrijving</th>
+                  </tr>
+                  <tr>
+                     <td>ingebracht</td>
+                     <td>v</td>
+                     <td>v</td>
+                     <td>Het gerapporteerde volume heeft betrekking op het water dat in de ondergrond is gebracht
+                        of, in geval van oppervlakte-infiltraties, het volume dat wordt toegevoegd aan de
+                        oppervlakte-infiltratie(s).</td>
+                  </tr>
+                  <tr>
+                     <td>onttrokken</td>
+                     <td>v</td>
+                     <td>v</td>
+                     <td>Het gerapporteerde volume heeft betrekking op het grondwater dat is onttrokken aan
+                        de ondergrond.</td>
                   </tr>
                </tbody>
             </table>
