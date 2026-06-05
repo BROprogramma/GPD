@@ -1,8 +1,7 @@
-Grondwaterproductiedossier
-===================
+[h2 is vereist vanwege ReSpec]: #
+<h2>Grondwaterproductiedossier</h2>
 
-Inleiding grondwatergebruik
-----------------------------------
+# Inleiding grondwatergebruik
 
 Grondwater is een belangrijke bestaansbron. Voor uiteenlopende doelen wordt actief gebruik gemaakt van grondwater. Deels richt het gebruik zich op het grondwater zelf, maar bij ondiepe bodemenergie richt het gebruik zich ook op het warmte-leverend en -bufferend vermogen van de ondergrond en het zich daarin bevindende grondwater. Een goed zicht op het huidige gebruik van grondwater -in samenhang met het monitoren van grondwaterstanden en stijghoogtes- helpt om de effecten ervan te begrijpen en om nieuwe gebruiksaanvragen te kunnen beoordelen en zodoende het grondwater als belangrijke bestaansbron duurzaam te beschermen en beheren. Het registratiedomein Grondwatergebruik richt zich op de registratie en ontsluiting van informatie over de technische systemen die grondwater benutten. De belangrijkste focus in de gegevensdefinitie ligt daarbij op de locatie en diepte van het systeem en op het gebruik (hoeveelheid water en energie) van het grondwater. Dit zijn de gegevens met directe hergebruikswaarde.
 
@@ -20,8 +19,7 @@ Het grondwaterproductiedossier kent een directe verwijzing naar één grondwater
 
 De volledige scopeafbakening is beschreven in het Scopedocument Domein Grondwatergebruik (GU). Deze is te raadplegen op: https://basisregistratieondergrond.nl/inhoud-bro/registratieobjecten/grondwatergebruik/
 
-Domein grondwatergebruik in de BRO
-----------------------------------
+# Domein grondwatergebruik in de BRO
 
 Het domein grondwatergebruik in de basisregistratie ondergrond (BRO) omvat twee registratieobjecten:
 -   Grondwatergebruiksysteem;
@@ -44,14 +42,13 @@ Een grondwaterproductiedossier omvat de gegevens van de periodieke opgave van de
 
 Een grondwaterproductiedossier en het grondwatergebruiksysteem waar dat grondwaterproductiedossier betrekking op heeft, vallen onder de verantwoordelijkheid van dezelfde bronhouder.
 
-Inleiding grondwaterproductiedossier
-----------------------------------
+# Inleiding grondwaterproductiedossier
 
-### Inleiding
+## Inleiding
 
 Een *Grondwaterproductiedossier (GPD)* omvat de gegevens van de periodieke opgave van de volumes (grond)water die over een zekere periode aan de ondergrond worden onttrokken of ingebracht. Het grondwaterproductiedossier richt zich alleen op de feitelijk gebruikte hoeveelheid grondwater, gegevens met betrekking tot de opgeslagen en onttrokken warmte en koude (bij bodemenergiesystemen), zoals bijvoorbeeld temperatuurgegevens worden niet geregistreerd in het grondwaterproductiedossier. Het registratieobject grondwaterproductiedossier beantwoordt de vraag hoe het grondwater is gebruikt (onttrokken of ingebracht), hoeveel grondwater is gebruikt en in welke periode dat is geweest. De in de basisregistratie ondergrond te registreren informatie van grondwaterproductie ontstaat in het werkproces van de bevoegde gezagen. Paragraaf 3.3.2 beschrijft de opeenvolgende stappen van het proces waarin de gegevens ontstaan. Paragraaf 3.3.3 beschrijft een aantal belangrijke kenmerken van de gegevens over het grondwaterproductiedossier. 
 
-### Het proces van gegevensverwerking
+## Het proces van gegevensverwerking
 
 Het proces waarin gegevens van grondwatergebruiksystemen in de praktijk ontstaan, is schematisch weergegeven in de onderstaande figuur en wordt daaronder beschreven. 
 
@@ -64,34 +61,33 @@ Ontwerpen van nieuw aan te leggen grondwatergebruiksystemen worden door initiati
 
 Gegevens over het feitelijke gebruik van grondwater worden door vergunningnemers periodiek aan het bevoegd gezag (te weten Provincies, Waterschappen en Rijkswaterstaat) geleverd. Het bevoegd gezag levert een deel van deze gegevens aan de BRO aan binnen het registratieobject Grondwaterproductiedossier. De juiste koppeling tussen de grondwaterproductie-gegevens en de gegevens van het grondwatergebruiksysteem is de verantwoordelijkheid van het bevoegd gezag.
 
-### Eigenschappen van grondwaterproductiecijfers die de gegevensinhoud van het registratieobject bepalen
+## Eigenschappen van grondwaterproductiecijfers die de gegevensinhoud van het registratieobject bepalen
 
 Hieronder zijn de belangrijkste sturende kenmerken kort toegelicht. In de beschrijving van de gegevensinhoud (paragraaf 3.4) wordt per entiteit een nadere, specifieke toelichting gegeven.
 
-#### Grondwaterproductie richt zich primair op grondwatergebruik
+### Grondwaterproductie richt zich primair op grondwatergebruik
 
 De primaire focus van het registratieobject grondwaterproductiedossier ligt bij de periodieke opgave van de volumes (grond)water die over een zekere periode aan de ondergrond worden onttrokken of ingebracht. In de BRO Programma Stuurgroep is besloten dat gegevens over de energieproductie buiten scope zijn. Omdat de circulatievloeistof van gesloten bodemenergiesystemen geen direct contact met het grondwater heeft, wordt van gesloten bodemenergiesystemen daardoor geen enkel gegeven in het registratieobject grondwaterproductiedossier opgenomen. Bij oppervlakte-infiltraties is door verdamping en neerslag niet precies bekend hoeveel water er in de ondergrond infiltreert. Wel is vaak bekend hoeveel water er, op installatieniveau wordt ingelaten. Het netwerk van infiltratieplassen en -kanalen vormt in dit geval de installatie. Dit ingelaten volume wordt, indien dit cijfer beschikbaar is, ook in het grondwaterproductiedossier geregistreerd.
 
-#### De kwaliteit en nauwkeurigheid van de geregistreerde gegevens
+### De kwaliteit en nauwkeurigheid van de geregistreerde gegevens
 
 Bij het gebruik van de gegevens uit de basisregistratie ondergrond moet de gebruiker kunnen vertrouwen op de geregistreerde gegevens. Dat roept de vraag op wat de kwaliteit en de nauwkeurigheid van de geregistreerde gegevens precies is. Grondwaterproductiecijfers worden deels met behulp van een watermeter vastgesteld. De watermeter meet het verpompte volume over een bepaalde periode. Een ander deel wordt geschat op basis van de draaiuren van de pomp en de capaciteit van de pomp of het debiet. Van agrarische onttrekkingen ten behoeve van bijvoorbeeld beregening is bekend dat deze voornamelijk in de laatste groep vallen. Het feit of het gemeten dan wel geschatte geregistreerde volumes betreft, wordt in het grondwaterproductiedossier vastgelegd. Naast dit kwaliteitskenmerk zijn in het grondwaterproductiedossier geen andere eigenschappen opgenomen om de kwaliteit van de gerapporteerde volumes te kunnen beoordelen. De controle en validatie van de productiecijfers is onderdeel van de Toezicht- en Handhavingstaken van het bevoegd gezag. Deze organisaties zijn verantwoordelijk voor de juistheid en betrouwbaarheid van de aangeleverde gegevens.
 
-#### Periode van het geregistreerde volume
+### Periode van het geregistreerde volume
 
 De periode waarover het gemeten gebruik wordt gerapporteerd, is wettelijk vastgelegd, evenals het moment waarop deze gegevens eenmaal per jaar aan het bevoegd gezag worden aangeleverd. Anders dan het wettelijk voorschrift aangeeft, is het in de dagelijkse praktijk al gemeengoed om de productiecijfers per maand te meten en te rapporteren aan het bevoegd gezag. In geval van kortlopend grondwatergebruik dient men de productiecijfers na afloop van de activiteit aan het bevoegd gezag aan te leveren. In de beschikking of afspraken met betrekking tot meldingen is de periode waarover het gemeten gebruik gerapporteerd wordt opgenomen. Volumes worden over de kleinst mogelijke, gerapporteerde periode geregistreerd in de basisregistratie ondergrond. Jaarvolumes worden alleen geregistreerd als er geen uitsplitsing naar kwartalen of maanden zijn gerapporteerd aan het bevoegd gezag. Indien de productiecijfers per maand beschikbaar zijn worden ze op dat niveau geregistreerd en niet (ook) op kwartaal en/of jaarniveau.
 
 De gegevens in de basisregistratie ondergrond worden door diverse organisatie hergebruikt. Het is daarbij van belang dat deze gebruikers de juiste conclusies kunnen trekken over bijvoorbeeld het totaal onttrokken grondwater in een bepaald gebied, in een bepaalde periode. Om die reden is het van belang dat een volume, in een bepaalde periode onttrokken (of ingebracht) water, slechts één keer wordt geregistreerd in de basisregistratie ondergrond. Dat betekent dat als van een bepaalde installatie de maandvolumes worden geregistreerd in de basisregistratie ondergrond, daarnaast niet het totale jaarvolume geregistreerd mag worden.
 
-#### Openbaarheid van de gegevens
+### Openbaarheid van de gegevens
 
 In het kader van de Wet beveiliging netwerk- en informatiesystemen vallen drinkwaterbedrijven onder de vitale sectoren. Bronhouders kunnen daarom aangeven of grondwaterproductiegegevens van drinkwateronttrekkingsputten (geregistreerd in het Registratieobject Grondwatergebruiksysteem), niet openbaar te raadplegen zijn. In dat geval zal het gehele grondwaterproductiedossier van deze objecten aan een beperkte groep (door bronhouders aan te wijzen) gebruikers uitgeleverd worden. Voor overige gebruikers is geen enkel grondwaterproductiegegeven in te zien als open data.
 
-Belangrijkste entiteiten
-------------------------
+# Belangrijkste entiteiten
 
 Een registratieobject is de belangrijkste eenheid van informatie in de basisregistratie ondergrond. Een registratieobject bestaat uit delen (entiteiten), en de delen hebben eigenschappen (attributen). In deze paragraaf wordt een beschrijvende toelichting geven op de gegevensinhoud van de belangrijkste entiteiten en hun eigenschappen. De expliciete definities zijn te vinden in de tabellen van de gegevensdefinitie in hoofdstuk 5. Als eerste wordt de hoofdentiteit beschreven, daarna de overige entiteiten.
 
-### Grondwaterproductiedossier
+## Grondwaterproductiedossier
 
 Het registratieobject Grondwaterproductiedossier bevat het geheel van gegevens van de periodieke opgave van de volumes (grond)water die over een zekere periode aan de ondergrond worden onttrokken of ingebracht. Een Grondwaterproductiedossier is een registratieobject met een *levensduur*. Het start en eindigt op een bepaald moment in de tijd. Dit tijdstip wordt vastgelegd tot op de dag nauwkeurig: met het domein Datum (zie de algemene inleiding: Domeinen). De begindatum van een Grondwaterproductiedossier is gelijk aan de begindatum van de periode waarop de eerste (oudste) rapportage betrekking heeft. De einddatum van een grondwaterproductiedossier is niet aanwezig zolang er nog periodiek volumes gerapporteerd worden aan het bevoegd gezag. De einddatum is alleen aanwezig wanneer het object in de werkelijkheid is beëindigd en er geen rapportages meer verwacht worden. De einddatum is gelijk aan de einddatum van de periode waarop de meest recente rapportage betrekking heeft.
 
@@ -99,7 +95,7 @@ Een grondwaterproductiedossier wordt gedurende de levensduur aangevuld met rappo
 
 De bronhouder van het registratieobject Grondwaterproductiedossier is het bevoegd gezag. De gegevens van het grondwaterproductiedossier die opgeslagen worden in de basisregistratie ondergrond worden (deels) door de meldings- of vergunningsplichtigen aangeleverd aan het bevoegd gezag.
 
-### Rapportage
+## Rapportage
 
 Een grondwaterproductiedossier bestaat uit nul, één of meerdere rapportages. Een rapportage is bijvoorbeeld een jaaropgave van onttrokken en ingebrachte volumes water. In de basisregistratieondergrond bevat de entiteit *Rapportage* alle kenmerken van deze gerapporteerde volumes. Het registratieobject Grondwaterproductiedossier wordt als eerste geregistreerd, voordat er rapportages geregistreerd worden. Op dat moment zijn er dus nog geen rapportages aanwezig in de basisregistratie ondergrond. Na de start van de registratie worden er rapportages geregistreerd waarbij elke rapportage geïdentificeerd wordt door middel van een *rapportage ID*.
 
@@ -109,7 +105,7 @@ Elke rapportage heeft betrekking op een bepaalde *rapportageperiode*. Deze rappo
 
 In de loop der tijd worden rapportages van verschillende maanden, jaren etc. gekoppeld aan dezelfde installatie. Deze installatie kan gedurende de levensloop wijzigen, bijvoorbeeld extra putten krijgen. Bij de installatie, als onderdeel van het grondwatergebruiksysteem, wordt de materiële geschiedenis vastgelegd. Dat betekent dat terug te vinden is op welk moment gedurende de levensloop er wijzigingen optreden. Ook is terug te vinden wat de begindatum is van alle putten. Met behulp van de rapportageperiode en deze materiële geschiedenis van het grondwatergebruiksysteem, kan een gebruiker achterhalen hoe de installatie eruit zag ten tijde van de rapportage.
 
-### Volume reeks
+## Volume reeks
 
 Een rapportage bevat één of meerdere volume reeksen. Een volume reeks bestaat uit een onafhankelijke variabele: de *periode*. Daarbij horen drie variabelen die afhankelijk zijn van deze periode. De afhankelijk variabelen zijn: de *verplaatsingsrichting*, het *volume* en de relatieve temperatuur van het ingebrachte water (*ingebracht warm of koud*). De periode is bijvoorbeeld de maand januari van 2025, dat betekent dat de periode bestaat uit een begindatum van 1 januari 2025 en een einddatum van 31 januari 2025. De verplaatsingsrichting geeft aan of het een volume betreft dat is onttrokken of een volume dat in de bodem is gebracht. Bij oppervlakte-infiltraties is niet bekend wat het volume is dat in de bodem infiltreert omdat een deel is verdampt en een deel via neerslag is toegevoegd. In de gevallen dat bij het bevoegd gezag bekend is wat het volume is van het water dat wordt toegevoegd aan de oppervlakte-infiltratielichamen, wordt dit in de basisregistratie ondergrond geregistreerd onder de verplaatsingsrichting: *ingebracht*.
 
@@ -208,7 +204,7 @@ Bij een open bodemenergiesystemen is het van belang om te registreren of het ing
 
 Zoals ook in paragraaf 3.3.3.3 is beschreven, worden volumes per kleinst mogelijke periode, bijvoorbeeld per maand geregistreerd. De tijdseenheid van deze periode wordt in de beschikking vermeld. Volumes worden daarnaast niet als totaal jaarvolume geregistreerd.
 
-### Koppeling met Grondwatergebruiksysteem (GUF)
+## Koppeling met Grondwatergebruiksysteem (GUF)
 
 Eén rapportage heeft betrekking op één gerealiseerde installatie van een grondwatergebruiksysteem (GUF). Dit is ook beschreven in paragraaf 3.2. De gerealiseerde installatie is in de basisregistratie ondergrond geregistreerd, met een identificerend ID, als onderdeel van een registratieobject Grondwatergebruiksysteem, met een identificerend BRO-ID. Binnen het grondwaterproductiedossier kunnen meerdere rapportages zijn geregistreerd waarbij de verschillende rapportages betrekking kunnen hebben op verschillende gerealiseerde installaties. Rapportages van één grondwaterproductiedossier hebben echter allemaal betrekking op installaties van één (uniek) grondwatergebruiksysteem.
 
@@ -240,8 +236,7 @@ Bij indeling 3 zijn alle onttrekkingsputten en oppervlakte-infiltraties gebundel
   <figcaption>Een grondwatergebruiksysteem (linksboven) dat op drie verschillende manieren is ingedeeld: in drie, twee en één installatie(s).</figcaption>
 </figure>
 
-Impact kwaliteitsregime IMBRO/A
--------------------------------
+# Impact kwaliteitsregime IMBRO/A
 
 Bij de aanlevering van historische gegevens over productiecijfers wordt geaccepteerd dat een aantal formeel verplichte gegevens geen waarde heeft of onbekend is. Deze gegevens worden in de basisregistratie ondergrond geregistreerd onder het IMBRO/A kwaliteitsregime. Het is mogelijk dat deze productiecijfers uit het verleden, die betrekking hebben op een zeker grondwatergebruiksysteem, worden opgevolgd door productiecijfers die wel voldoen aan het IMBRO kwaliteitsregime. Het kwaliteitsregime is een attribuut dat geen materiële geschiedenis kent. Daarom worden de productiecijfers die betrekking hebben op een zeker grondwatergebruiksysteem op de tijdlijn gesplitst in een grondwaterproductiedossier met een kwaliteitsregime IMBRO/A en een apart grondwaterproductiedossier met een kwaliteitsregime IMBRO. Vanaf het moment dat de productiecijfers aangeleverd kunnen worden in het IMBRO kwaliteitsregime (uiterlijk de datum van wettelijke inwerkingtreding), wordt het grondwaterproductiedossier met de historische gegevens met een IMBRO/A kwaliteitsregime afgesloten en wordt een nieuw grondwaterproductiedossier gestart.
 
@@ -249,11 +244,10 @@ Een grondwaterproductiedossier dat onder kwaliteitsregime IMBRO is geregistreerd
 
 Bij een grondwatergebruiksysteem dat bestaat uit twee of meerdere installaties, is bij de productiecijfers in het verleden niet altijd onderscheid gemaakt tussen de verschillende installaties. De productiecijfers zijn vaak een optelling van de productiecijfers van de verschillende installaties. Daarom kan bij historische gegevens die onder IMBRO/A worden geregistreerd, worden aangegeven dat de rapportage betrekking heeft op een grondwatergebruiksysteem (GUF) in plaats van op een gerealiseerde installatie van een grondwatergebruiksysteem.  
 
-Samenhang en consistentie tussen verschillende registratieobjecten
--------------------------------
+# Samenhang en consistentie tussen verschillende registratieobjecten
+
 De basisregistratie ondergrond dwingt af dat gegevens in andere registratieobjecten waarnaar verwezen wordt, ook daadwerkelijk geregistreerd zijn. Dat betekent dat vanuit het grondwaterproductiedossier alleen verwezen kan worden naar een grondwatergebruiksysteem en een gerealiseerde installatie die in de basisregistratie ondergrond zijn geregistreerd.
 
-INSPIRE
--------------------------------
+# INSPIRE
 
 Het doel van de Europese kaderrichtlijn INSPIRE is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject grondwaterproductiedossier valt onder de INSPIRE. Om die reden moeten de gegevens in het registratieobject geschikt gemaakt worden voor uitwisseling volgens de INSPIRE-standaard. De gegevensinhoud van het grondwaterproductiedossier past het beste bij het INSPIRE-thema Environmental Monitoring Facilities (EF). Voor het gegevensmodel van dit registratieobject zal een mapping gemaakt worden op het gegevensmodel van INSPIRE-thema EF. De inhoud van deze mapping is geen onderdeel van deze catalogus.
