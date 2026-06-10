@@ -31,7 +31,7 @@ In de technische landelijke voorziening van de basisregistratie ondergrond worde
 -   Grondwatergebruiksysteem wordt afgekort tot GUF (Groundwater Usage Facility);
 -   Grondwaterproductiedossier wordt afgekort tot GPD (Groundwater Production Dossier).
 
-<figure id='image002'>
+<figure id='image003'>
   <img src="./media/39964ae4bf6d301a85a027ff152809ae.png" alt="samenhangDomein" width="600"/>
   <figcaption>De mogelijke samenhang tussen de twee registratieobjecten Grondwatergebruiksysteem (GUF) en Grondwaterproductiedossier (GPD) binnen het domein Grondwatergebruik. Onder het IMBRO-regime heeft de inhoud van het grondwaterproductiedossier meestal betrekking op het installatie-niveau van GUF. Onder het IMBRO/A-regime hebben deze gegevens meestal betrekking op het niveau van grondwatergebruiksysteem van GUF. In het figuur is met dunne lijnen aangegeven dat onder het IMBRO-regime een klein deel van de inhoud van het grondwaterproductiedossier betrekking zal hebben op het grondwatergebruiksysteem-niveau van GUF. Een klein deel van inhoud van de grondwaterproductiedossiers onder het IMBRO/A-regime zal betrekking hebben op het installatie-niveau van GUF.</figcaption>
 </figure>
@@ -52,7 +52,7 @@ Een *Grondwaterproductiedossier (GPD)* omvat de gegevens van de periodieke opgav
 
 Het proces waarin gegevens van grondwatergebruiksystemen in de praktijk ontstaan, is schematisch weergegeven in de onderstaande figuur en wordt daaronder beschreven. 
 
-<figure id='image003'>
+<figure id='image004'>
   <img src="./media/totstandkomingsproces.png" alt="proces" width="600"/>
   <figcaption>Het totstandkomingsproces van gegevens voor de registratieobjecten Grondwatergebruiksysteem (beige pijlen) en Grondwaterproductiedossier (rode pijlen) en de daarbij betrokken actoren.</figcaption>
 </figure>
@@ -216,7 +216,7 @@ Hieronder twee voorbeelden waaruit blijkt dat de technische samenhang en de same
 
 Bij indeling 2 worden de ingebrachte volumes, samen met de onttrokken volumes van put 1 en 3, gebundeld in één rapportage en gekoppeld aan installatie 2. Eén rapportage kan meerdere volume reeksen bevatten en per volume reeks wordt aangegeven of het een onttrokken volume of een ingebracht volume betreft. In plaats van één rapportage voor zowel onttrokken volume als ingebracht volume, kan deze rapportage eventueel ook gesplitst worden in twee rapportages: één voor de ingebrachte volumes en één voor de onttrokken volumes, die beide gekoppeld zijn aan installatie.
 
-<figure id='image004'>
+<figure id='image005'>
   <img src="./media/Voorbeeld1-installaties.jpg" alt="voorbeeldinstallaties1" width="600"/>
   <figcaption>Een grondwatergebruiksysteem (links) dat op twee verschillende manieren is ingedeeld: in drie (indeling 1) en twee (indeling 2) installaties.</figcaption>
 </figure>
@@ -227,12 +227,8 @@ Bij indeling 2 is ervoor gekozen, vanwege de technische samenhang, om oppervlakt
 
 Bij indeling 3 zijn alle onttrekkingsputten en oppervlakte-infiltraties gebundeld in één installatie: installatie 1. Alle onttrokken en ingebrachte volumes worden gekoppeld aan installatie 1. Bij deze indeling worden de onttrokken volumes van put 1 t/m 7 bij elkaar gevoegd en kan er op basis van de rapportages geen onderscheid meer gemaakt worden tussen de volumes van put 1 t/m 3 en die van put 4 t/m 7. Wanneer in de beschikking staat dat er over put 1 t/m 3 apart gerapporteerd moet worden, kan deze indeling niet worden gebruikt.
     
-<figure id='image005'>
-  <img src="./media/Voorbeeld2-installaties1.jpg" alt="voorbeeldinstallaties2a" width="600"/>
-</figure>
-
 <figure id='image006'>
-  <img src="./media/Voorbeeld2-installaties2.jpg" alt="voorbeeldinstallaties2b" width="600"/>
+  <img src="./media/Voorbeeld2-installaties1en2.jpg" alt="voorbeeldinstallaties2" width="600"/>
   <figcaption>Een grondwatergebruiksysteem (linksboven) dat op drie verschillende manieren is ingedeeld: in drie, twee en één installatie(s).</figcaption>
 </figure>
 
